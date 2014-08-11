@@ -28,8 +28,8 @@
                          android:background="@android:color/transparent"
                          android:layout_height="wrap_content"
                          android:id="@+id/head"
-                         android:layout_weight="0.4"
-                         android:contentDescription="@string/head"/>
+                         android:contentDescription="@string/head"
+                         android:layout_weight="0.5"/>
         </LinearLayout>
 
         <LinearLayout android:layout_width="match_parent"
@@ -99,7 +99,7 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@android:color/transparent"
-                         android:layout_weight="0.1"/>
+                         android:layout_weight="0.15"/>
 
             <ImageButton android:id="@+id/heart"
                          android:layout_width="wrap_content"
@@ -213,7 +213,7 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@android:color/transparent"
-                         android:layout_weight="0.1"/>
+                         android:layout_weight="0.15"/>
 
             <ImageButton android:id="@+id/left_knee"
                          android:layout_width="wrap_content"
@@ -234,12 +234,12 @@
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
                          android:background="@android:color/transparent"
-                        android:contentDescription="@string/right_shin"/>
+                         android:contentDescription="@string/right_shin"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:background="@android:color/transparent"
-                         android:layout_weight="0.15"/>
+                         android:layout_weight="0.2"/>
 
             <ImageButton android:id="@+id/left_shin"
                          android:layout_width="wrap_content"

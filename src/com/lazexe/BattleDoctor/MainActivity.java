@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -90,7 +89,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (view instanceof ImageButton) {
             ImageButton imageButton = (ImageButton) view;
             String contentDescription = String.valueOf(imageButton.getContentDescription());
-            Toast.makeText(this, contentDescription, Toast.LENGTH_LONG).show();
             Intent doctorActivityIntent = new Intent(this, DoctorActivity.class);
             doctorActivityIntent.putExtra(WOUND_KEY, contentDescription);
             startActivity(doctorActivityIntent);
