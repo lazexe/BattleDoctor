@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BattleDoctor</string>
+    
+    <string name="head">Голова</string>
+    <string name="chest">Грудь</string>
+    <string name="left_shoulder">Левое плече</string>
+    <string name="right_shoulder">Правое плече</string>
+    <string name="left_forearm">Левое предплечье</string>
+    <string name="right_forearm">Правое предплечье</string>
+    <string name="heart">Сердце</string>
+    <string name="righ_lung">Правое легкое</string>
+    <string name="left_arm">Левая кисть</string>
+    <string name="right_arm">Правая кисть</string>
+    <string name="left_stomach">Левая часть живота</string>
+    <string name="right_stomach">Правая часть живота</string>
+    <string name="left_leg">Левая нога</string>
+    <string name="right_leg">Правая нога</string>
+    <string name="left_knee">Левое колено</string>
+    <string name="right_knee">Правое колено</string>
+    <string name="left_shin">Левая голень</string>
+    <string name="right_shin">Правая голень</string>
+    <string name="left_foot">Левая ступня</string>
+    <string name="right_foot">Правая ступня</string>
+</resources>

@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BattleDoctor</string>
+
+    <string name="head">Head</string>
+    <string name="chest">Chest</string>
+    <string name="left_shoulder">Left shoulder</string>
+    <string name="right_shoulder">Right shoulder</string>
+    <string name="left_forearm">Left forearm</string>
+    <string name="right_forearm">Right forearm</string>
+    <string name="heart">Heart</string>
+    <string name="righ_lung">Right lung</string>
+    <string name="left_arm">Left arm</string>
+    <string name="right_arm">Right arm</string>
+    <string name="left_stomach">Reft stomach</string>
+    <string name="right_stomach">Right stomach</string>
+    <string name="left_leg">Left leg</string>
+    <string name="right_leg">Right leg</string>
+    <string name="left_knee">Left knee</string>
+    <string name="right_knee">Right knee</string>
+    <string name="left_shin">Left shin</string>
+    <string name="right_shin">Right shin</string>
+    <string name="left_foot">Left foot</string>
+    <string name="right_foot">Right foot</string>
 </resources>

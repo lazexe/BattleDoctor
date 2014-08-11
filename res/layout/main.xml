@@ -20,13 +20,13 @@
                       android:orientation="vertical"
                       android:layout_weight="0.2">
 
-            <ImageButton
-                    android:layout_width="wrap_content"
-                    android:src="@drawable/ic_aim"
-                    android:layout_gravity="center_horizontal|"
-                    android:background="@android:color/transparent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageButton"/>
+            <ImageButton android:layout_width="wrap_content"
+                         android:src="@drawable/ic_aim"
+                         android:layout_gravity="center_horizontal|"
+                         android:background="@android:color/transparent"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/head"
+                         android:contentDescription="@string/head"/>
         </LinearLayout>
 
         <LinearLayout android:layout_width="match_parent"
@@ -35,26 +35,32 @@
                       android:orientation="horizontal"
                       android:layout_weight="0.1">
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_shoulder"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/right_shoulder"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/chest"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/chest"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_shoulder"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_shoulder"/>
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
@@ -62,31 +68,39 @@
                       android:orientation="horizontal"
                       android:layout_weight="0.1">
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_forearm"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/right_forearm"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_lung"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/righ_lung"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/heart"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/heart"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_forearm"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_forearm"/>
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
@@ -94,10 +108,12 @@
                       android:gravity="center|top"
                       android:layout_weight="0.1">
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_arm"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/right_arm"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -105,15 +121,19 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_stomach"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/right_stomach"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_stomach"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_stomach"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -121,10 +141,12 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_arm"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_arm"/>
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
@@ -132,10 +154,12 @@
                       android:orientation="horizontal"
                       android:layout_weight="0.1">
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_leg"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/right_leg"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -143,10 +167,12 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_leg"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_leg"/>
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
@@ -154,10 +180,12 @@
                       android:gravity="center"
                       android:layout_weight="0.1">
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_knee"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/right_knee"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -165,10 +193,12 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_knee"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_knee"/>
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
@@ -176,10 +206,12 @@
                       android:gravity="center"
                       android:layout_weight="0.1">
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_shin"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                        android:contentDescription="@string/right_shin"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -187,10 +219,12 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_shin"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_shin"/>
         </LinearLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
@@ -198,10 +232,12 @@
                       android:orientation="horizontal"
                       android:layout_weight="0.3">
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/right_foot"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/right_foot"/>
 
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
@@ -212,10 +248,12 @@
             <ImageButton android:layout_width="wrap_content"
                          android:layout_height="wrap_content"/>
 
-            <ImageButton android:layout_width="wrap_content"
+            <ImageButton android:id="@+id/left_foot"
+                         android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:src="@drawable/ic_aim"
-                         android:background="@android:color/transparent"/>
+                         android:background="@android:color/transparent"
+                         android:contentDescription="@string/left_foot"/>
         </LinearLayout>
     </LinearLayout>
 
