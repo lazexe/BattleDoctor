@@ -58,20 +58,28 @@ public class DoctorActivity extends Activity {
     }
 
     private void initControls() {
-        TextView woundTextView = (TextView) findViewById(R.id.wound_textview);
-        woundTextView.setText(getWound());
         descriptionImageView = (ImageView) findViewById(R.id.description_imageview);
         firstHelpTextView = (TextView) findViewById(R.id.first_help_textview);
     }
 
     private void showHelp(String diagnostics) throws XmlPullParserException, IOException {
-        descriptionImageView.setImageDrawable(getResources().getDrawable(findImageByDiagnostic(diagnostics)));
+        descriptionImageView.setImageDrawable(getResources().getDrawable(findImageIdByDiagnostic(diagnostics)));
         final int NAME_ATTR_INDEX = 0;
         XmlPullParser xmlPullParser = getResources().getXml(R.xml.wounds);
         while (xmlPullParser.getEventType() != XmlPullParser.END_DOCUMENT) {
             if (xmlPullParser.getEventType() == XmlPullParser.START_TAG && xmlPullParser.getName().equals("wound")) {
                 if (xmlPullParser.getAttributeValue(NAME_ATTR_INDEX).equals(diagnostics)) {
-                    // TODO
+                    xmlPullParser.next();
+                    int counter = 1;
+                    while (true) {
+                        if (xmlPullParser.getEventType() == XmlPullParser.TEXT) {
+                            firstHelpTextView.append(String.valueOf(counter) + ". " + xmlPullParser.getText() + "\n");
+                            counter++;
+                        }
+                        if (xmlPullParser.getEventType() == XmlPullParser.END_TAG && xmlPullParser.getName().equals("wound"))
+                            return;
+                        xmlPullParser.next();
+                    }
                 }
             }
             xmlPullParser.next();
@@ -79,7 +87,7 @@ public class DoctorActivity extends Activity {
 
     }
 
-    private int findImageByDiagnostic(String diagnostic) {
+    private int findImageIdByDiagnostic(String diagnostic) {
         if (diagnostic.equals("head"))
                 return R.drawable.head;
         if (diagnostic.equals("hand"))
