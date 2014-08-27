@@ -3,6 +3,9 @@ package com.lazexe.BattleDoctor;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -39,6 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         initControls();
+        showLicenceAgreement();
     }
 
     private void initControls() {
@@ -84,6 +88,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         rightFoot.setOnClickListener(this);
     }
 
+    private void showLicenceAgreement() {
+        new LicenceAgreement(this).showLicenceAgreement();
+    }
+
     @Override
     public void onClick(View view) {
         if (view instanceof ImageButton) {
@@ -93,5 +101,22 @@ public class MainActivity extends Activity implements View.OnClickListener {
             doctorActivityIntent.putExtra(WOUND_KEY, contentDescription);
             startActivity(doctorActivityIntent);
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_activity_actions, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.settings_action) {
+            Intent preferenceIntent = new Intent(this, PrefsActivity.class);
+            startActivity(preferenceIntent);
+            return true;
+        }
+        return false;
     }
 }

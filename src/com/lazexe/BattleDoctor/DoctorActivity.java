@@ -2,6 +2,7 @@ package com.lazexe.BattleDoctor;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 import org.xmlpull.v1.XmlPullParser;
@@ -100,6 +101,7 @@ public class DoctorActivity extends Activity {
             return R.drawable.neck;
         if (diagnostic.equals("stomach"))
             return R.drawable.stomach;
+        Log.d(TAG, "No such diagnostic!!!");
         return -1;
     }
 }

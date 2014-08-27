@@ -14,5 +14,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".DoctorActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PrefsActivity" android:screenOrientation="portrait" />
     </application>
 </manifest>

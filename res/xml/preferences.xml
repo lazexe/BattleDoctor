@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/app_preference">
+        <CheckBoxPreference android:id="@+id/show_licence_agreement_preference"
+                            android:title="@string/show_licence_agreement"
+                            android:summary="@string/show_licence_agreement_summary"
+                            android:key="licence_key"/>
+        <Preference android:title="@string/display_licence_agreement"
+                    android:summary="@string/display_licence_agreement_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/support">
+        <Preference android:title="@string/rate_me"
+                    android:summary="@string/rate_me_summary"/>
+        <Preference android:title="@string/mail_me"
+                    android:summary="@string/mail_me_summary"/>
+        <Preference android:title="@string/app_version"
+                    android:summary="@string/app_version_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference android:title="@string/developer"
+                    android:summary="@string/maxim_lazarenko" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
