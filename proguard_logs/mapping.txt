@@ -1,0 +1,45 @@
+com.lazexe.BattleDoctor.DoctorActivity -> com.lazexe.BattleDoctor.DoctorActivity:
+    java.lang.String TAG -> a
+    android.widget.ImageView descriptionImageView -> b
+    android.widget.TextView firstHelpTextView -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    java.lang.String getDiagnostics() -> a
+    java.lang.String getWound() -> b
+    void initControls() -> c
+    void showHelp(java.lang.String) -> a
+    int findImageIdByDiagnostic(java.lang.String) -> b
+com.lazexe.BattleDoctor.LicenceAgreement -> com.lazexe.BattleDoctor.a:
+    android.app.AlertDialog$Builder builder -> a
+    android.app.Activity activity -> b
+    void initAlertDialogBuilder(android.app.Activity,android.view.View) -> a
+    void showLicenceAgreement() -> a
+    java.lang.String getLicenceAgreementFromXml(android.app.Activity) -> a
+com.lazexe.BattleDoctor.LicenceAgreement$1 -> com.lazexe.BattleDoctor.b:
+    android.view.View val$contentView -> a
+    android.app.Activity val$activity -> b
+    com.lazexe.BattleDoctor.LicenceAgreement this$0 -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.lazexe.BattleDoctor.LicenceAgreement$2 -> com.lazexe.BattleDoctor.c:
+    android.app.Activity val$activity -> a
+    com.lazexe.BattleDoctor.LicenceAgreement this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.lazexe.BattleDoctor.MainActivity -> com.lazexe.BattleDoctor.MainActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void initControls() -> a
+    void showLicenceAgreement() -> b
+    void onClick(android.view.View) -> onClick
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.lazexe.BattleDoctor.PrefsActivity -> com.lazexe.BattleDoctor.PrefsActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.lazexe.BattleDoctor.PrefsActivity$PrefFragment -> com.lazexe.BattleDoctor.d:
+    com.lazexe.BattleDoctor.PrefsActivity this$0 -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+    void startMailApplication() -> a
+    void showLicenceDialog() -> b
+com.lazexe.BattleDoctor.PrefsActivity$PrefFragment$1 -> com.lazexe.BattleDoctor.e:
+    com.lazexe.BattleDoctor.PrefsActivity$PrefFragment this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick

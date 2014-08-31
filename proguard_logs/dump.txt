@@ -1,0 +1,2754 @@
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/DoctorActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.lazexe.BattleDoctor.DoctorActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 223):
+  + Integer [16908332]
+  + Integer [2130837505]
+  + Integer [2130837506]
+  + Integer [2130837507]
+  + Integer [2130837513]
+  + Integer [2130837514]
+  + Integer [2130837515]
+  + Integer [2130903040]
+  + Integer [2130968578]
+  + Integer [2131034113]
+  + Integer [2131034114]
+  + Integer [2131034115]
+  + Integer [2131034116]
+  + Integer [2131034117]
+  + Integer [2131034118]
+  + Integer [2131034119]
+  + Integer [2131034120]
+  + Integer [2131034121]
+  + Integer [2131034122]
+  + Integer [2131034123]
+  + Integer [2131034124]
+  + Integer [2131034125]
+  + Integer [2131034126]
+  + Integer [2131034127]
+  + Integer [2131034128]
+  + Integer [2131034129]
+  + Integer [2131034130]
+  + Integer [2131034131]
+  + Integer [2131034132]
+  + Integer [2131165184]
+  + Integer [2131165185]
+  + String [
+]
+  + String [. ]
+  + String [No such diagnostic!!!]
+  + String [chest]
+  + String [hand]
+  + String [head]
+  + String [leg]
+  + String [nech]
+  + String [stomach]
+  + String [title]
+  + String [wound]
+  + Class [android/app/ActionBar]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/content/res/Resources]
+  + Class [android/os/Bundle]
+  + Class [android/util/Log]
+  + Class [android/view/MenuItem]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/TextView]
+  + Class [com/lazexe/BattleDoctor/DoctorActivity]
+  + Class [java/lang/Class]
+  + Class [java/lang/Exception]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [org/xmlpull/v1/XmlPullParser]
+  + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.a Ljava/lang/String;]
+  + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.b Landroid/widget/ImageView;]
+  + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.c Landroid/widget/TextView;]
+  + Methodref [android/app/ActionBar.setDisplayHomeAsUpEnabled (Z)V]
+  + Methodref [android/app/ActionBar.setHomeButtonEnabled (Z)V]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onBackPressed ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+  + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + Methodref [android/content/res/Resources.getXml (I)Landroid/content/res/XmlResourceParser;]
+  + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/widget/ImageView.setImageDrawable (Landroid/graphics/drawable/Drawable;)V]
+  + Methodref [android/widget/TextView.append (Ljava/lang/CharSequence;)V]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.a ()Ljava/lang/String;]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.a (Ljava/lang/String;)V]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.b ()Ljava/lang/String;]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.b (Ljava/lang/String;)I]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.c ()V]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getActionBar ()Landroid/app/ActionBar;]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getIntent ()Landroid/content/Intent;]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getResources ()Landroid/content/res/Resources;]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.setContentView (I)V]
+  + Methodref [com/lazexe/BattleDoctor/DoctorActivity.setTitle (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+  + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getAttributeValue (I)Ljava/lang/String;]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getText ()Ljava/lang/String;]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [a (Ljava/lang/String;)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [append (Ljava/lang/CharSequence;)V]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()Ljava/lang/String;]
+  + NameAndType [b (Ljava/lang/String;)I]
+  + NameAndType [b Landroid/widget/ImageView;]
+  + NameAndType [c ()V]
+  + NameAndType [c Landroid/widget/TextView;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getActionBar ()Landroid/app/ActionBar;]
+  + NameAndType [getAttributeValue (I)Ljava/lang/String;]
+  + NameAndType [getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + NameAndType [getEventType ()I]
+  + NameAndType [getExtras ()Landroid/os/Bundle;]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getString (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [getText ()Ljava/lang/String;]
+  + NameAndType [getXml (I)Landroid/content/res/XmlResourceParser;]
+  + NameAndType [next ()I]
+  + NameAndType [onBackPressed ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setDisplayHomeAsUpEnabled (Z)V]
+  + NameAndType [setHomeButtonEnabled (Z)V]
+  + NameAndType [setImageDrawable (Landroid/graphics/drawable/Drawable;)V]
+  + NameAndType [setTitle (Ljava/lang/CharSequence;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (I)Ljava/lang/String;]
+  + Utf8 [
+]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/app/ActionBar;]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()Landroid/os/Bundle;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/content/res/XmlResourceParser;]
+  + Utf8 [(I)Landroid/graphics/drawable/Drawable;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/graphics/drawable/Drawable;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Z)V]
+  + Utf8 [. ]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/ImageView;]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [No such diagnostic!!!]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/ActionBar]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/os/Bundle]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [chest]
+  + Utf8 [com/lazexe/BattleDoctor/DoctorActivity]
+  + Utf8 [d]
+  + Utf8 [equals]
+  + Utf8 [findViewById]
+  + Utf8 [getActionBar]
+  + Utf8 [getAttributeValue]
+  + Utf8 [getDrawable]
+  + Utf8 [getEventType]
+  + Utf8 [getExtras]
+  + Utf8 [getIntent]
+  + Utf8 [getItemId]
+  + Utf8 [getName]
+  + Utf8 [getResources]
+  + Utf8 [getString]
+  + Utf8 [getText]
+  + Utf8 [getXml]
+  + Utf8 [hand]
+  + Utf8 [head]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [leg]
+  + Utf8 [nech]
+  + Utf8 [next]
+  + Utf8 [onBackPressed]
+  + Utf8 [onCreate]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [org/xmlpull/v1/XmlPullParser]
+  + Utf8 [printStackTrace]
+  + Utf8 [setContentView]
+  + Utf8 [setDisplayHomeAsUpEnabled]
+  + Utf8 [setHomeButtonEnabled]
+  + Utf8 [setImageDrawable]
+  + Utf8 [setTitle]
+  + Utf8 [stomach]
+  + Utf8 [title]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+  + Utf8 [wound]
+
+Fields (count = 3):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x1a
+      = private static final java.lang.String a
+  + Field:        b Landroid/widget/ImageView;
+    Access flags: 0x2
+      = private android.widget.ImageView b
+  + Field:        c Landroid/widget/TextView;
+    Access flags: 0x2
+      = private android.widget.TextView c
+
+Methods (count = 9):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public DoctorActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #63
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #65
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #8
+        + Integer [2130903040]
+      [8] invokevirtual #83
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] invokespecial #75
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.b ()Ljava/lang/String;]
+      [16] invokevirtual #84
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.setTitle (Ljava/lang/CharSequence;)V]
+      [19] aload_0 v0
+      [20] invokespecial #77
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.c ()V]
+      [23] aload_0 v0
+      [24] aload_0 v0
+      [25] invokespecial #73
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.a ()Ljava/lang/String;]
+      [28] invokespecial #74
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.a (Ljava/lang/String;)V]
+      [31] goto +8 (target=39)
+      [34] astore_2 v2
+      [35] aload_2 v2
+      [36] invokevirtual #86
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [39] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (23 -> 31: 34):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [34] Var: ..., Stack: [a:java/lang/Exception]
+        - [39] Var: ..., Stack: (empty)
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] invokeinterface #92
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] ldc #1
+        + Integer [16908332]
+      [8] ificmpne +9 (target=17)
+      [11] aload_0 v0
+      [12] invokespecial #64
+        + Methodref [android/app/Activity.onBackPressed ()V]
+      [15] iconst_1
+      [16] ireturn
+      [17] iconst_0
+      [18] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [17] Var: ..., Stack: (empty)
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 286, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #75
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.b ()Ljava/lang/String;]
+      [4] astore_1 v1
+      [5] aload_1 v1
+      [6] ifnull +278 (target=284)
+      [9] aload_1 v1
+      [10] aload_0 v0
+      [11] ldc #10
+        + Integer [2131034113]
+      [13] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [16] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [19] ifeq +6 (target=25)
+      [22] ldc #37
+        + String [head]
+      [24] areturn
+      [25] aload_1 v1
+      [26] aload_0 v0
+      [27] ldc #11
+        + Integer [2131034114]
+      [29] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [32] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [35] ifne +29 (target=64)
+      [38] aload_1 v1
+      [39] aload_0 v0
+      [40] ldc #17
+        + Integer [2131034120]
+      [42] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [45] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [48] ifne +16 (target=64)
+      [51] aload_1 v1
+      [52] aload_0 v0
+      [53] ldc #16
+        + Integer [2131034119]
+      [55] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [58] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [61] ifeq +6 (target=67)
+      [64] ldc #35
+        + String [chest]
+      [66] areturn
+      [67] aload_1 v1
+      [68] aload_0 v0
+      [69] ldc #18
+        + Integer [2131034121]
+      [71] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [74] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [77] ifne +68 (target=145)
+      [80] aload_1 v1
+      [81] aload_0 v0
+      [82] ldc #19
+        + Integer [2131034122]
+      [84] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [87] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [90] ifne +55 (target=145)
+      [93] aload_1 v1
+      [94] aload_0 v0
+      [95] ldc #14
+        + Integer [2131034117]
+      [97] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [100] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [103] ifne +42 (target=145)
+      [106] aload_1 v1
+      [107] aload_0 v0
+      [108] ldc #15
+        + Integer [2131034118]
+      [110] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [113] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [116] ifne +29 (target=145)
+      [119] aload_1 v1
+      [120] aload_0 v0
+      [121] ldc #12
+        + Integer [2131034115]
+      [123] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [126] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [129] ifne +16 (target=145)
+      [132] aload_1 v1
+      [133] aload_0 v0
+      [134] ldc #13
+        + Integer [2131034116]
+      [136] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [139] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [142] ifeq +6 (target=148)
+      [145] ldc #36
+        + String [hand]
+      [147] areturn
+      [148] aload_1 v1
+      [149] aload_0 v0
+      [150] ldc #22
+        + Integer [2131034125]
+      [152] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [155] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [158] ifne +94 (target=252)
+      [161] aload_1 v1
+      [162] aload_0 v0
+      [163] ldc #23
+        + Integer [2131034126]
+      [165] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [168] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [171] ifne +81 (target=252)
+      [174] aload_1 v1
+      [175] aload_0 v0
+      [176] ldc #28
+        + Integer [2131034131]
+      [178] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [181] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [184] ifne +68 (target=252)
+      [187] aload_1 v1
+      [188] aload_0 v0
+      [189] ldc #29
+        + Integer [2131034132]
+      [191] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [194] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [197] ifne +55 (target=252)
+      [200] aload_1 v1
+      [201] aload_0 v0
+      [202] ldc #26
+        + Integer [2131034129]
+      [204] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [207] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [210] ifne +42 (target=252)
+      [213] aload_1 v1
+      [214] aload_0 v0
+      [215] ldc #27
+        + Integer [2131034130]
+      [217] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [220] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [223] ifne +29 (target=252)
+      [226] aload_1 v1
+      [227] aload_0 v0
+      [228] ldc #24
+        + Integer [2131034127]
+      [230] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [233] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [236] ifne +16 (target=252)
+      [239] aload_1 v1
+      [240] aload_0 v0
+      [241] ldc #25
+        + Integer [2131034128]
+      [243] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [246] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [249] ifeq +6 (target=255)
+      [252] ldc #38
+        + String [leg]
+      [254] areturn
+      [255] aload_1 v1
+      [256] aload_0 v0
+      [257] ldc #20
+        + Integer [2131034123]
+      [259] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [262] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [265] ifne +16 (target=281)
+      [268] aload_1 v1
+      [269] aload_0 v0
+      [270] ldc #21
+        + Integer [2131034124]
+      [272] invokevirtual #82
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getString (I)Ljava/lang/String;]
+      [275] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [278] ifeq +6 (target=284)
+      [281] ldc #40
+        + String [stomach]
+      [283] areturn
+      [284] aconst_null
+      [285] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 9):
+        - [25] Var: ...[a:java/lang/String], Stack: (empty)
+        - [64] Var: ..., Stack: (empty)
+        - [67] Var: ..., Stack: (empty)
+        - [145] Var: ..., Stack: (empty)
+        - [148] Var: ..., Stack: (empty)
+        - [252] Var: ..., Stack: (empty)
+        - [255] Var: ..., Stack: (empty)
+        - [281] Var: ..., Stack: (empty)
+        - [284] Var: ..., Stack: (empty)
+  + Method:       b()Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokevirtual #80
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getIntent ()Landroid/content/Intent;]
+      [4] invokevirtual #66
+        + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+      [7] ldc #41
+        + String [title]
+      [9] invokevirtual #69
+        + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [12] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()V
+    Access flags: 0x2
+      = private void c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 50, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] ldc #30
+        + Integer [2131165184]
+      [4] invokevirtual #78
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.findViewById (I)Landroid/view/View;]
+      [7] checkcast #50
+        + Class [android/widget/ImageView]
+      [10] putfield #59
+        + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.b Landroid/widget/ImageView;]
+      [13] aload_0 v0
+      [14] aload_0 v0
+      [15] ldc #31
+        + Integer [2131165185]
+      [17] invokevirtual #78
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.findViewById (I)Landroid/view/View;]
+      [20] checkcast #51
+        + Class [android/widget/TextView]
+      [23] putfield #60
+        + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.c Landroid/widget/TextView;]
+      [26] aload_0 v0
+      [27] invokevirtual #79
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getActionBar ()Landroid/app/ActionBar;]
+      [30] ifnull +19 (target=49)
+      [33] aload_0 v0
+      [34] invokevirtual #79
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getActionBar ()Landroid/app/ActionBar;]
+      [37] iconst_1
+      [38] invokevirtual #62
+        + Methodref [android/app/ActionBar.setHomeButtonEnabled (Z)V]
+      [41] aload_0 v0
+      [42] invokevirtual #79
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getActionBar ()Landroid/app/ActionBar;]
+      [45] iconst_1
+      [46] invokevirtual #61
+        + Methodref [android/app/ActionBar.setDisplayHomeAsUpEnabled (Z)V]
+      [49] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [49] Var: ..., Stack: (empty)
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x2
+      = private void a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 192, locals = 5, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #59
+        + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.b Landroid/widget/ImageView;]
+      [4] aload_0 v0
+      [5] invokevirtual #81
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getResources ()Landroid/content/res/Resources;]
+      [8] aload_0 v0
+      [9] aload_1 v1
+      [10] invokespecial #76
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.b (Ljava/lang/String;)I]
+      [13] invokevirtual #67
+        + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+      [16] invokevirtual #71
+        + Methodref [android/widget/ImageView.setImageDrawable (Landroid/graphics/drawable/Drawable;)V]
+      [19] iconst_0
+      [20] istore_2 v2
+      [21] aload_0 v0
+      [22] invokevirtual #81
+        + Methodref [com/lazexe/BattleDoctor/DoctorActivity.getResources ()Landroid/content/res/Resources;]
+      [25] ldc #9
+        + Integer [2130968578]
+      [27] invokevirtual #68
+        + Methodref [android/content/res/Resources.getXml (I)Landroid/content/res/XmlResourceParser;]
+      [30] astore_3 v3
+      [31] aload_3 v3
+      [32] invokeinterface #94
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+      [37] iconst_1
+      [38] ificmpeq +153 (target=191)
+      [41] aload_3 v3
+      [42] invokeinterface #94
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+      [47] iconst_2
+      [48] ificmpne +133 (target=181)
+      [51] aload_3 v3
+      [52] invokeinterface #95
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [57] ldc #42
+        + String [wound]
+      [59] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [62] ifeq +119 (target=181)
+      [65] aload_3 v3
+      [66] iconst_0
+      [67] invokeinterface #93
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getAttributeValue (I)Ljava/lang/String;]
+      [72] aload_1 v1
+      [73] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [76] ifeq +105 (target=181)
+      [79] aload_3 v3
+      [80] invokeinterface #97
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+      [85] pop
+      [86] iconst_1
+      [87] istore v4
+      [89] aload_3 v3
+      [90] invokeinterface #94
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+      [95] iconst_4
+      [96] ificmpne +50 (target=146)
+      [99] aload_0 v0
+      [100] getfield #60
+        + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.c Landroid/widget/TextView;]
+      [103] new #56
+        + Class [java/lang/StringBuilder]
+      [106] dup
+      [107] invokespecial #89
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [110] iload v4
+      [112] invokestatic #88
+        + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+      [115] invokevirtual #90
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [118] ldc #33
+        + String [. ]
+      [120] invokevirtual #90
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [123] aload_3 v3
+      [124] invokeinterface #96
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getText ()Ljava/lang/String;]
+      [129] invokevirtual #90
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [132] ldc #32
+        + String [
+]
+      [134] invokevirtual #90
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [137] invokevirtual #91
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [140] invokevirtual #72
+        + Methodref [android/widget/TextView.append (Ljava/lang/CharSequence;)V]
+      [143] iinc v4, 1
+      [146] aload_3 v3
+      [147] invokeinterface #94
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+      [152] iconst_3
+      [153] ificmpne +18 (target=171)
+      [156] aload_3 v3
+      [157] invokeinterface #95
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [162] ldc #42
+        + String [wound]
+      [164] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [167] ifeq +4 (target=171)
+      [170] return
+      [171] aload_3 v3
+      [172] invokeinterface #97
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+      [177] pop
+      [178] goto -89 (target=89)
+      [181] aload_3 v3
+      [182] invokeinterface #97
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+      [187] pop
+      [188] goto -157 (target=31)
+      [191] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 6):
+        - [31] Var: ...[i][a:org/xmlpull/v1/XmlPullParser], Stack: (empty)
+        - [89] Var: ...[i], Stack: (empty)
+        - [146] Var: ..., Stack: (empty)
+        - [171] Var: ..., Stack: (empty)
+        - [181] Var: -1, Stack: (empty)
+        - [191] Var: ..., Stack: (empty)
+  + Method:       b(Ljava/lang/String;)I
+    Access flags: 0x2
+      = private int b(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 83, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] ldc #37
+        + String [head]
+      [3] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [6] ifeq +6 (target=12)
+      [9] ldc #4
+        + Integer [2130837507]
+      [11] ireturn
+      [12] aload_1 v1
+      [13] ldc #36
+        + String [hand]
+      [15] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [18] ifeq +6 (target=24)
+      [21] ldc #3
+        + Integer [2130837506]
+      [23] ireturn
+      [24] aload_1 v1
+      [25] ldc #35
+        + String [chest]
+      [27] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [30] ifeq +6 (target=36)
+      [33] ldc #2
+        + Integer [2130837505]
+      [35] ireturn
+      [36] aload_1 v1
+      [37] ldc #38
+        + String [leg]
+      [39] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [42] ifeq +6 (target=48)
+      [45] ldc #5
+        + Integer [2130837513]
+      [47] ireturn
+      [48] aload_1 v1
+      [49] ldc #39
+        + String [nech]
+      [51] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [54] ifeq +6 (target=60)
+      [57] ldc #6
+        + Integer [2130837514]
+      [59] ireturn
+      [60] aload_1 v1
+      [61] ldc #40
+        + String [stomach]
+      [63] invokevirtual #87
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [66] ifeq +6 (target=72)
+      [69] ldc #7
+        + Integer [2130837515]
+      [71] ireturn
+      [72] getstatic #58
+        + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.a Ljava/lang/String;]
+      [75] ldc #34
+        + String [No such diagnostic!!!]
+      [77] invokestatic #70
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [80] pop
+      [81] iconst_m1
+      [82] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 6):
+        - [12] Var: ..., Stack: (empty)
+        - [24] Var: ..., Stack: (empty)
+        - [36] Var: ..., Stack: (empty)
+        - [48] Var: ..., Stack: (empty)
+        - [60] Var: ..., Stack: (empty)
+        - [72] Var: ..., Stack: (empty)
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 0, stack = 1):
+      [0] ldc #52
+        + Class [com/lazexe/BattleDoctor/DoctorActivity]
+      [2] invokevirtual #85
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [5] putstatic #58
+        + Fieldref [com/lazexe/BattleDoctor/DoctorActivity.a Ljava/lang/String;]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.lazexe.BattleDoctor.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 173):
+  + Integer [2130837512]
+  + Integer [2130903041]
+  + Integer [2130968576]
+  + Integer [2131034133]
+  + Integer [2131034134]
+  + Integer [2131034136]
+  + Integer [2131165186]
+  + String [
+]
+  + String [. ]
+  + String [licence_key]
+  + Class [android/app/Activity]
+  + Class [android/app/AlertDialog]
+  + Class [android/app/AlertDialog$Builder]
+  + Class [android/content/SharedPreferences]
+  + Class [android/content/res/Resources]
+  + Class [android/preference/PreferenceManager]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/View]
+  + Class [android/widget/TextView]
+  + Class [com/lazexe/BattleDoctor/a]
+  + Class [com/lazexe/BattleDoctor/b]
+  + Class [com/lazexe/BattleDoctor/c]
+  + Class [java/lang/Exception]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [org/xmlpull/v1/XmlPullParser]
+  + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+  + Fieldref [com/lazexe/BattleDoctor/a.b Landroid/app/Activity;]
+  + Methodref [android/app/Activity.getResources ()Landroid/content/res/Resources;]
+  + Methodref [android/app/Activity.getString (I)Ljava/lang/String;]
+  + Methodref [android/app/AlertDialog.show ()V]
+  + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+  + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
+  + Methodref [android/app/AlertDialog$Builder.setCancelable (Z)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setIcon (Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setNegativeButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + Methodref [android/content/res/Resources.getXml (I)Landroid/content/res/XmlResourceParser;]
+  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/lazexe/BattleDoctor/a.a (Landroid/app/Activity;)Ljava/lang/String;]
+  + Methodref [com/lazexe/BattleDoctor/a.a (Landroid/app/Activity;Landroid/view/View;)V]
+  + Methodref [com/lazexe/BattleDoctor/b.<init> (Lcom/lazexe/BattleDoctor/a;Landroid/view/View;Landroid/app/Activity;)V]
+  + Methodref [com/lazexe/BattleDoctor/c.<init> (Lcom/lazexe/BattleDoctor/a;Landroid/app/Activity;)V]
+  + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getText ()Ljava/lang/String;]
+  + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Lcom/lazexe/BattleDoctor/a;Landroid/app/Activity;)V]
+  + NameAndType [<init> (Lcom/lazexe/BattleDoctor/a;Landroid/view/View;Landroid/app/Activity;)V]
+  + NameAndType [a (Landroid/app/Activity;)Ljava/lang/String;]
+  + NameAndType [a (Landroid/app/Activity;Landroid/view/View;)V]
+  + NameAndType [a Landroid/app/AlertDialog$Builder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Landroid/app/Activity;]
+  + NameAndType [create ()Landroid/app/AlertDialog;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + NameAndType [getBoolean (Ljava/lang/String;Z)Z]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + NameAndType [getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + NameAndType [getEventType ()I]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getText ()Ljava/lang/String;]
+  + NameAndType [getXml (I)Landroid/content/res/XmlResourceParser;]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [next ()I]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [setCancelable (Z)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setIcon (Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setNegativeButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [show ()V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (I)Ljava/lang/String;]
+  + Utf8 [
+]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/content/res/XmlResourceParser;]
+  + Utf8 [(I)Landroid/graphics/drawable/Drawable;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/app/Activity;)Ljava/lang/String;]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/app/Activity;Landroid/view/View;)V]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/a;Landroid/app/Activity;)V]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/a;Landroid/view/View;Landroid/app/Activity;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;Z)Z]
+  + Utf8 [(Z)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [. ]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Landroid/app/AlertDialog$Builder;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/app/AlertDialog]
+  + Utf8 [android/app/AlertDialog$Builder]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/preference/PreferenceManager]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [com/lazexe/BattleDoctor/a]
+  + Utf8 [com/lazexe/BattleDoctor/b]
+  + Utf8 [com/lazexe/BattleDoctor/c]
+  + Utf8 [create]
+  + Utf8 [findViewById]
+  + Utf8 [from]
+  + Utf8 [getBoolean]
+  + Utf8 [getDefaultSharedPreferences]
+  + Utf8 [getDrawable]
+  + Utf8 [getEventType]
+  + Utf8 [getResources]
+  + Utf8 [getString]
+  + Utf8 [getText]
+  + Utf8 [getXml]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [licence_key]
+  + Utf8 [next]
+  + Utf8 [org/xmlpull/v1/XmlPullParser]
+  + Utf8 [printStackTrace]
+  + Utf8 [setCancelable]
+  + Utf8 [setIcon]
+  + Utf8 [setNegativeButton]
+  + Utf8 [setPositiveButton]
+  + Utf8 [setText]
+  + Utf8 [setTitle]
+  + Utf8 [setView]
+  + Utf8 [show]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+
+Fields (count = 2):
+  + Field:        a Landroid/app/AlertDialog$Builder;
+    Access flags: 0x2
+      = private android.app.AlertDialog$Builder a
+  + Field:        b Landroid/app/Activity;
+    Access flags: 0x12
+      = private final android.app.Activity b
+
+Methods (count = 4):
+  - Method:       <init>(Landroid/app/Activity;)V
+    Access flags: 0x1
+      = public a(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 55, locals = 5, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #53
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #29
+        + Fieldref [com/lazexe/BattleDoctor/a.b Landroid/app/Activity;]
+      [9] aload_1 v1
+      [10] invokestatic #44
+        + Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+      [13] ldc #2
+        + Integer [2130903041]
+      [15] aconst_null
+      [16] invokevirtual #45
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [19] astore_2 v2
+      [20] aload_2 v2
+      [21] ldc #7
+        + Integer [2131165186]
+      [23] invokevirtual #46
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [26] checkcast #19
+        + Class [android/widget/TextView]
+      [29] astore_3 v3
+      [30] aload_3 v3
+      [31] aload_1 v1
+      [32] invokestatic #48
+        + Methodref [com/lazexe/BattleDoctor/a.a (Landroid/app/Activity;)Ljava/lang/String;]
+      [35] invokevirtual #47
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [38] goto +10 (target=48)
+      [41] astore v4
+      [43] aload v4
+      [45] invokevirtual #52
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [48] aload_0 v0
+      [49] aload_1 v1
+      [50] aload_2 v2
+      [51] invokespecial #49
+        + Methodref [com/lazexe/BattleDoctor/a.a (Landroid/app/Activity;Landroid/view/View;)V]
+      [54] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (30 -> 38: 41):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [41] Var: [a:com/lazexe/BattleDoctor/a][a:android/app/Activity][a:android/view/View][a:android/widget/TextView], Stack: [a:java/lang/Exception]
+        - [48] Var: ..., Stack: (empty)
+  + Method:       a(Landroid/app/Activity;Landroid/view/View;)V
+    Access flags: 0x2
+      = private void a(android.app.Activity,android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 109, locals = 3, stack = 7):
+      [0] aload_0 v0
+      [1] new #13
+        + Class [android/app/AlertDialog$Builder]
+      [4] dup
+      [5] aload_1 v1
+      [6] invokespecial #33
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [9] putfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [12] aload_0 v0
+      [13] getfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [16] aload_1 v1
+      [17] ldc #4
+        + Integer [2131034133]
+      [19] invokevirtual #31
+        + Methodref [android/app/Activity.getString (I)Ljava/lang/String;]
+      [22] new #21
+        + Class [com/lazexe/BattleDoctor/b]
+      [25] dup
+      [26] aload_0 v0
+      [27] aload_2 v2
+      [28] aload_1 v1
+      [29] invokespecial #50
+        + Methodref [com/lazexe/BattleDoctor/b.<init> (Lcom/lazexe/BattleDoctor/a;Landroid/view/View;Landroid/app/Activity;)V]
+      [32] invokevirtual #38
+        + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [35] pop
+      [36] aload_0 v0
+      [37] getfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [40] aload_1 v1
+      [41] ldc #5
+        + Integer [2131034134]
+      [43] invokevirtual #31
+        + Methodref [android/app/Activity.getString (I)Ljava/lang/String;]
+      [46] new #22
+        + Class [com/lazexe/BattleDoctor/c]
+      [49] dup
+      [50] aload_0 v0
+      [51] aload_1 v1
+      [52] invokespecial #51
+        + Methodref [com/lazexe/BattleDoctor/c.<init> (Lcom/lazexe/BattleDoctor/a;Landroid/app/Activity;)V]
+      [55] invokevirtual #37
+        + Methodref [android/app/AlertDialog$Builder.setNegativeButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [58] pop
+      [59] aload_0 v0
+      [60] getfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [63] aload_1 v1
+      [64] ldc #6
+        + Integer [2131034136]
+      [66] invokevirtual #31
+        + Methodref [android/app/Activity.getString (I)Ljava/lang/String;]
+      [69] invokevirtual #39
+        + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+      [72] pop
+      [73] aload_0 v0
+      [74] getfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [77] aload_1 v1
+      [78] invokevirtual #30
+        + Methodref [android/app/Activity.getResources ()Landroid/content/res/Resources;]
+      [81] ldc #1
+        + Integer [2130837512]
+      [83] invokevirtual #41
+        + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+      [86] invokevirtual #36
+        + Methodref [android/app/AlertDialog$Builder.setIcon (Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+      [89] pop
+      [90] aload_0 v0
+      [91] getfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [94] iconst_0
+      [95] invokevirtual #35
+        + Methodref [android/app/AlertDialog$Builder.setCancelable (Z)Landroid/app/AlertDialog$Builder;]
+      [98] pop
+      [99] aload_0 v0
+      [100] getfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [103] aload_2 v2
+      [104] invokevirtual #40
+        + Methodref [android/app/AlertDialog$Builder.setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+      [107] pop
+      [108] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #29
+        + Fieldref [com/lazexe/BattleDoctor/a.b Landroid/app/Activity;]
+      [4] invokestatic #43
+        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [7] ldc #10
+        + String [licence_key]
+      [9] iconst_0
+      [10] invokeinterface #58
+        + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+      [15] istore_1 v1
+      [16] iload_1 v1
+      [17] ifeq +13 (target=30)
+      [20] aload_0 v0
+      [21] getfield #28
+        + Fieldref [com/lazexe/BattleDoctor/a.a Landroid/app/AlertDialog$Builder;]
+      [24] invokevirtual #34
+        + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
+      [27] invokevirtual #32
+        + Methodref [android/app/AlertDialog.show ()V]
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [30] Var: ...[i], Stack: (empty)
+  + Method:       a(Landroid/app/Activity;)Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String a(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 105, locals = 4, stack = 2):
+      [0] new #26
+        + Class [java/lang/StringBuilder]
+      [3] dup
+      [4] invokespecial #55
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [7] astore_1 v1
+      [8] aload_0 v0
+      [9] invokevirtual #30
+        + Methodref [android/app/Activity.getResources ()Landroid/content/res/Resources;]
+      [12] ldc #3
+        + Integer [2130968576]
+      [14] invokevirtual #42
+        + Methodref [android/content/res/Resources.getXml (I)Landroid/content/res/XmlResourceParser;]
+      [17] astore_2 v2
+      [18] iconst_1
+      [19] istore_3 v3
+      [20] aload_2 v2
+      [21] invokeinterface #59
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+      [26] iconst_1
+      [27] ificmpeq +73 (target=100)
+      [30] aload_2 v2
+      [31] invokeinterface #59
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+      [36] lookupswitch (1 offsets, default=54) (target=90)
+        4: offset = 20, target = 56
+        default: offset = 54, target = 90
+      [56] aload_1 v1
+      [57] ldc #8
+        + String [
+]
+      [59] invokevirtual #56
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [62] iload_3 v3
+      [63] iinc v3, 1
+      [66] invokestatic #54
+        + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+      [69] invokevirtual #56
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [72] ldc #9
+        + String [. ]
+      [74] invokevirtual #56
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [77] aload_2 v2
+      [78] invokeinterface #60
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getText ()Ljava/lang/String;]
+      [83] invokevirtual #56
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [86] pop
+      [87] goto +3 (target=90)
+      [90] aload_2 v2
+      [91] invokeinterface #61
+        + InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+      [96] pop
+      [97] goto -77 (target=20)
+      [100] aload_1 v1
+      [101] invokevirtual #57
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [104] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [20] Var: ...[a:java/lang/StringBuilder][a:org/xmlpull/v1/XmlPullParser][i], Stack: (empty)
+        - [56] Var: ..., Stack: (empty)
+        - [90] Var: ..., Stack: (empty)
+        - [100] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.lazexe.BattleDoctor.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 69):
+  + Integer [2131165187]
+  + String [licence_key]
+  + Class [android/content/DialogInterface]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [android/content/SharedPreferences]
+  + Class [android/content/SharedPreferences$Editor]
+  + Class [android/preference/PreferenceManager]
+  + Class [android/view/View]
+  + Class [android/widget/CheckBox]
+  + Class [com/lazexe/BattleDoctor/b]
+  + Class [java/lang/Object]
+  + Fieldref [com/lazexe/BattleDoctor/b.a Landroid/view/View;]
+  + Fieldref [com/lazexe/BattleDoctor/b.b Landroid/app/Activity;]
+  + Fieldref [com/lazexe/BattleDoctor/b.c Lcom/lazexe/BattleDoctor/a;]
+  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/widget/CheckBox.isChecked ()Z]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+  + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+  + InterfaceMethodref [android/content/SharedPreferences$Editor.putBoolean (Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/view/View;]
+  + NameAndType [b Landroid/app/Activity;]
+  + NameAndType [c Lcom/lazexe/BattleDoctor/a;]
+  + NameAndType [cancel ()V]
+  + NameAndType [commit ()Z]
+  + NameAndType [edit ()Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + NameAndType [isChecked ()Z]
+  + NameAndType [putBoolean (Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [()Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/a;Landroid/view/View;Landroid/app/Activity;)V]
+  + Utf8 [(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [Lcom/lazexe/BattleDoctor/a;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/content/SharedPreferences$Editor]
+  + Utf8 [android/preference/PreferenceManager]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/CheckBox]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [cancel]
+  + Utf8 [com/lazexe/BattleDoctor/b]
+  + Utf8 [commit]
+  + Utf8 [edit]
+  + Utf8 [findViewById]
+  + Utf8 [getDefaultSharedPreferences]
+  + Utf8 [isChecked]
+  + Utf8 [java/lang/Object]
+  + Utf8 [licence_key]
+  + Utf8 [onClick]
+  + Utf8 [putBoolean]
+
+Fields (count = 3):
+  + Field:        a Landroid/view/View;
+    Access flags: 0x1010
+      = final synthetic android.view.View a
+  + Field:        b Landroid/app/Activity;
+    Access flags: 0x1010
+      = final synthetic android.app.Activity b
+  + Field:        c Lcom/lazexe/BattleDoctor/a;
+    Access flags: 0x1010
+      = final synthetic com.lazexe.BattleDoctor.a c
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/lazexe/BattleDoctor/a;Landroid/view/View;Landroid/app/Activity;)V
+    Access flags: 0x0
+      = b(com.lazexe.BattleDoctor.a,android.view.View,android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #14
+        + Fieldref [com/lazexe/BattleDoctor/b.c Lcom/lazexe/BattleDoctor/a;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #12
+        + Fieldref [com/lazexe/BattleDoctor/b.a Landroid/view/View;]
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] putfield #13
+        + Fieldref [com/lazexe/BattleDoctor/b.b Landroid/app/Activity;]
+      [15] aload_0 v0
+      [16] invokespecial #18
+        + Methodref [java/lang/Object.<init> ()V]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x1
+      = public void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 57, locals = 5, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #12
+        + Fieldref [com/lazexe/BattleDoctor/b.a Landroid/view/View;]
+      [4] ldc #1
+        + Integer [2131165187]
+      [6] invokevirtual #16
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [9] checkcast #9
+        + Class [android/widget/CheckBox]
+      [12] astore_3 v3
+      [13] aload_3 v3
+      [14] invokevirtual #17
+        + Methodref [android/widget/CheckBox.isChecked ()Z]
+      [17] ifeq +33 (target=50)
+      [20] aload_0 v0
+      [21] getfield #13
+        + Fieldref [com/lazexe/BattleDoctor/b.b Landroid/app/Activity;]
+      [24] invokestatic #15
+        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [27] astore v4
+      [29] aload v4
+      [31] invokeinterface #20
+        + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
+      [36] ldc #2
+        + String [licence_key]
+      [38] iconst_0
+      [39] invokeinterface #22
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.putBoolean (Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;]
+      [44] invokeinterface #21
+        + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
+      [49] pop
+      [50] aload_1 v1
+      [51] invokeinterface #19
+        + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+      [56] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [50] Var: ...[a:android/widget/CheckBox], Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.lazexe.BattleDoctor.c extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 33):
+  + Class [android/app/Activity]
+  + Class [android/content/DialogInterface]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/lazexe/BattleDoctor/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/lazexe/BattleDoctor/c.a Landroid/app/Activity;]
+  + Fieldref [com/lazexe/BattleDoctor/c.b Lcom/lazexe/BattleDoctor/a;]
+  + Methodref [android/app/Activity.finish ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [b Lcom/lazexe/BattleDoctor/a;]
+  + NameAndType [cancel ()V]
+  + NameAndType [finish ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/a;Landroid/app/Activity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Lcom/lazexe/BattleDoctor/a;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/DialogInterface]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [b]
+  + Utf8 [cancel]
+  + Utf8 [com/lazexe/BattleDoctor/c]
+  + Utf8 [finish]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 2):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x1010
+      = final synthetic android.app.Activity a
+  + Field:        b Lcom/lazexe/BattleDoctor/a;
+    Access flags: 0x1010
+      = final synthetic com.lazexe.BattleDoctor.a b
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/lazexe/BattleDoctor/a;Landroid/app/Activity;)V
+    Access flags: 0x0
+      = c(com.lazexe.BattleDoctor.a,android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/lazexe/BattleDoctor/c.b Lcom/lazexe/BattleDoctor/a;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #6
+        + Fieldref [com/lazexe/BattleDoctor/c.a Landroid/app/Activity;]
+      [10] aload_0 v0
+      [11] invokespecial #9
+        + Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x1
+      = public void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 3, stack = 1):
+      [0] aload_1 v1
+      [1] invokeinterface #10
+        + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+      [6] aload_0 v0
+      [7] getfield #6
+        + Fieldref [com/lazexe/BattleDoctor/c.a Landroid/app/Activity;]
+      [10] invokevirtual #8
+        + Methodref [android/app/Activity.finish ()V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.lazexe.BattleDoctor.MainActivity extends android.app.Activity
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 119):
+  + Integer [2130903042]
+  + Integer [2131099648]
+  + Integer [2131165189]
+  + Integer [2131165190]
+  + Integer [2131165191]
+  + Integer [2131165192]
+  + Integer [2131165193]
+  + Integer [2131165194]
+  + Integer [2131165195]
+  + Integer [2131165196]
+  + Integer [2131165197]
+  + Integer [2131165198]
+  + Integer [2131165199]
+  + Integer [2131165200]
+  + Integer [2131165201]
+  + Integer [2131165202]
+  + Integer [2131165203]
+  + Integer [2131165204]
+  + Integer [2131165205]
+  + Integer [2131165206]
+  + Integer [2131165207]
+  + Integer [2131165208]
+  + Integer [2131165210]
+  + String [title]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/view/MenuInflater]
+  + Class [android/view/MenuItem]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/ImageButton]
+  + Class [com/lazexe/BattleDoctor/DoctorActivity]
+  + Class [com/lazexe/BattleDoctor/MainActivity]
+  + Class [com/lazexe/BattleDoctor/PrefsActivity]
+  + Class [com/lazexe/BattleDoctor/a]
+  + Class [java/lang/String]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onCreateOptionsMenu (Landroid/view/Menu;)Z]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [android/widget/ImageButton.getContentDescription ()Ljava/lang/CharSequence;]
+  + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/lazexe/BattleDoctor/MainActivity.a ()V]
+  + Methodref [com/lazexe/BattleDoctor/MainActivity.b ()V]
+  + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/lazexe/BattleDoctor/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [com/lazexe/BattleDoctor/MainActivity.setContentView (I)V]
+  + Methodref [com/lazexe/BattleDoctor/MainActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [com/lazexe/BattleDoctor/a.<init> (Landroid/app/Activity;)V]
+  + Methodref [com/lazexe/BattleDoctor/a.a ()V]
+  + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/app/Activity;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [a ()V]
+  + NameAndType [b ()V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getContentDescription ()Ljava/lang/CharSequence;]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onCreateOptionsMenu (Landroid/view/Menu;)Z]
+  + NameAndType [putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()Ljava/lang/CharSequence;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/ImageButton]
+  + Utf8 [b]
+  + Utf8 [com/lazexe/BattleDoctor/DoctorActivity]
+  + Utf8 [com/lazexe/BattleDoctor/MainActivity]
+  + Utf8 [com/lazexe/BattleDoctor/PrefsActivity]
+  + Utf8 [com/lazexe/BattleDoctor/a]
+  + Utf8 [findViewById]
+  + Utf8 [getContentDescription]
+  + Utf8 [getItemId]
+  + Utf8 [getMenuInflater]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/String]
+  + Utf8 [onClick]
+  + Utf8 [onCreate]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [putExtra]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [startActivity]
+  + Utf8 [title]
+  + Utf8 [valueOf]
+
+Fields (count = 0):
+
+Methods (count = 7):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #36
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #37
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903042]
+      [8] invokevirtual #48
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] invokespecial #44
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.a ()V]
+      [15] aload_0 v0
+      [16] invokespecial #45
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.b ()V]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 335, locals = 21, stack = 2):
+      [0] aload_0 v0
+      [1] ldc #3
+        + Integer [2131165189]
+      [3] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [6] checkcast #30
+        + Class [android/widget/ImageButton]
+      [9] astore_1 v1
+      [10] aload_0 v0
+      [11] ldc #6
+        + Integer [2131165192]
+      [13] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [16] checkcast #30
+        + Class [android/widget/ImageButton]
+      [19] astore_2 v2
+      [20] aload_0 v0
+      [21] ldc #4
+        + Integer [2131165190]
+      [23] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [26] checkcast #30
+        + Class [android/widget/ImageButton]
+      [29] astore_3 v3
+      [30] aload_0 v0
+      [31] ldc #5
+        + Integer [2131165191]
+      [33] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [36] checkcast #30
+        + Class [android/widget/ImageButton]
+      [39] astore v4
+      [41] aload_0 v0
+      [42] ldc #9
+        + Integer [2131165195]
+      [44] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [47] checkcast #30
+        + Class [android/widget/ImageButton]
+      [50] astore v5
+      [52] aload_0 v0
+      [53] ldc #8
+        + Integer [2131165194]
+      [55] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [58] checkcast #30
+        + Class [android/widget/ImageButton]
+      [61] astore v6
+      [63] aload_0 v0
+      [64] ldc #10
+        + Integer [2131165196]
+      [66] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [69] checkcast #30
+        + Class [android/widget/ImageButton]
+      [72] astore v7
+      [74] aload_0 v0
+      [75] ldc #7
+        + Integer [2131165193]
+      [77] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [80] checkcast #30
+        + Class [android/widget/ImageButton]
+      [83] astore v8
+      [85] aload_0 v0
+      [86] ldc #14
+        + Integer [2131165200]
+      [88] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [91] checkcast #30
+        + Class [android/widget/ImageButton]
+      [94] astore v9
+      [96] aload_0 v0
+      [97] ldc #11
+        + Integer [2131165197]
+      [99] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [102] checkcast #30
+        + Class [android/widget/ImageButton]
+      [105] astore v10
+      [107] aload_0 v0
+      [108] ldc #13
+        + Integer [2131165199]
+      [110] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [113] checkcast #30
+        + Class [android/widget/ImageButton]
+      [116] astore v11
+      [118] aload_0 v0
+      [119] ldc #12
+        + Integer [2131165198]
+      [121] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [124] checkcast #30
+        + Class [android/widget/ImageButton]
+      [127] astore v12
+      [129] aload_0 v0
+      [130] ldc #16
+        + Integer [2131165202]
+      [132] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [135] checkcast #30
+        + Class [android/widget/ImageButton]
+      [138] astore v13
+      [140] aload_0 v0
+      [141] ldc #15
+        + Integer [2131165201]
+      [143] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [146] checkcast #30
+        + Class [android/widget/ImageButton]
+      [149] astore v14
+      [151] aload_0 v0
+      [152] ldc #18
+        + Integer [2131165204]
+      [154] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [157] checkcast #30
+        + Class [android/widget/ImageButton]
+      [160] astore v15
+      [162] aload_0 v0
+      [163] ldc #17
+        + Integer [2131165203]
+      [165] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [168] checkcast #30
+        + Class [android/widget/ImageButton]
+      [171] astore v16
+      [173] aload_0 v0
+      [174] ldc #20
+        + Integer [2131165206]
+      [176] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [179] checkcast #30
+        + Class [android/widget/ImageButton]
+      [182] astore v17
+      [184] aload_0 v0
+      [185] ldc #19
+        + Integer [2131165205]
+      [187] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [190] checkcast #30
+        + Class [android/widget/ImageButton]
+      [193] astore v18
+      [195] aload_0 v0
+      [196] ldc #22
+        + Integer [2131165208]
+      [198] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [201] checkcast #30
+        + Class [android/widget/ImageButton]
+      [204] astore v19
+      [206] aload_0 v0
+      [207] ldc #21
+        + Integer [2131165207]
+      [209] invokevirtual #46
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.findViewById (I)Landroid/view/View;]
+      [212] checkcast #30
+        + Class [android/widget/ImageButton]
+      [215] astore v20
+      [217] aload_1 v1
+      [218] aload_0 v0
+      [219] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [222] aload_2 v2
+      [223] aload_0 v0
+      [224] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [227] aload_3 v3
+      [228] aload_0 v0
+      [229] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [232] aload v4
+      [234] aload_0 v0
+      [235] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [238] aload v5
+      [240] aload_0 v0
+      [241] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [244] aload v6
+      [246] aload_0 v0
+      [247] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [250] aload v7
+      [252] aload_0 v0
+      [253] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [256] aload v8
+      [258] aload_0 v0
+      [259] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [262] aload v9
+      [264] aload_0 v0
+      [265] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [268] aload v10
+      [270] aload_0 v0
+      [271] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [274] aload v11
+      [276] aload_0 v0
+      [277] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [280] aload v12
+      [282] aload_0 v0
+      [283] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [286] aload v13
+      [288] aload_0 v0
+      [289] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [292] aload v14
+      [294] aload_0 v0
+      [295] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [298] aload v15
+      [300] aload_0 v0
+      [301] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [304] aload v16
+      [306] aload_0 v0
+      [307] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [310] aload v17
+      [312] aload_0 v0
+      [313] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [316] aload v18
+      [318] aload_0 v0
+      [319] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [322] aload v19
+      [324] aload_0 v0
+      [325] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [328] aload v20
+      [330] aload_0 v0
+      [331] invokevirtual #43
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [334] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x2
+      = private void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 3):
+      [0] new #34
+        + Class [com/lazexe/BattleDoctor/a]
+      [3] dup
+      [4] aload_0 v0
+      [5] invokespecial #50
+        + Methodref [com/lazexe/BattleDoctor/a.<init> (Landroid/app/Activity;)V]
+      [8] invokevirtual #51
+        + Methodref [com/lazexe/BattleDoctor/a.a ()V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 48, locals = 5, stack = 4):
+      [0] aload_1 v1
+      [1] instanceof #30
+        + Class [android/widget/ImageButton]
+      [4] ifeq +43 (target=47)
+      [7] aload_1 v1
+      [8] checkcast #30
+        + Class [android/widget/ImageButton]
+      [11] astore_2 v2
+      [12] aload_2 v2
+      [13] invokevirtual #42
+        + Methodref [android/widget/ImageButton.getContentDescription ()Ljava/lang/CharSequence;]
+      [16] invokestatic #52
+        + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [19] astore_3 v3
+      [20] new #26
+        + Class [android/content/Intent]
+      [23] dup
+      [24] aload_0 v0
+      [25] ldc #31
+        + Class [com/lazexe/BattleDoctor/DoctorActivity]
+      [27] invokespecial #39
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [30] astore v4
+      [32] aload v4
+      [34] ldc #24
+        + String [title]
+      [36] aload_3 v3
+      [37] invokevirtual #40
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [40] pop
+      [41] aload_0 v0
+      [42] aload v4
+      [44] invokevirtual #49
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [47] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [47] Var: ..., Stack: (empty)
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #47
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+      [4] astore_2 v2
+      [5] aload_2 v2
+      [6] ldc #2
+        + Integer [2131099648]
+      [8] aload_1 v1
+      [9] invokevirtual #41
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [12] aload_0 v0
+      [13] aload_1 v1
+      [14] invokespecial #38
+        + Methodref [android/app/Activity.onCreateOptionsMenu (Landroid/view/Menu;)Z]
+      [17] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 3, stack = 4):
+      [0] aload_1 v1
+      [1] invokeinterface #53
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] ldc #23
+        + Integer [2131165210]
+      [8] ificmpne +21 (target=29)
+      [11] new #26
+        + Class [android/content/Intent]
+      [14] dup
+      [15] aload_0 v0
+      [16] ldc #33
+        + Class [com/lazexe/BattleDoctor/PrefsActivity]
+      [18] invokespecial #39
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [21] astore_2 v2
+      [22] aload_0 v0
+      [23] aload_2 v2
+      [24] invokevirtual #49
+        + Methodref [com/lazexe/BattleDoctor/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [27] iconst_1
+      [28] ireturn
+      [29] iconst_0
+      [30] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [29] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/PrefsActivity
+  Superclass:    android/preference/PreferenceActivity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.lazexe.BattleDoctor.PrefsActivity extends android.preference.PreferenceActivity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 74):
+  + Integer [16908290]
+  + Integer [16908332]
+  + Integer [2131034139]
+  + Class [android/app/ActionBar]
+  + Class [android/app/FragmentManager]
+  + Class [android/app/FragmentTransaction]
+  + Class [android/preference/PreferenceActivity]
+  + Class [android/view/MenuItem]
+  + Class [com/lazexe/BattleDoctor/PrefsActivity]
+  + Class [com/lazexe/BattleDoctor/d]
+  + Methodref [android/app/ActionBar.setDisplayHomeAsUpEnabled (Z)V]
+  + Methodref [android/app/ActionBar.setHomeButtonEnabled (Z)V]
+  + Methodref [android/app/FragmentManager.beginTransaction ()Landroid/app/FragmentTransaction;]
+  + Methodref [android/app/FragmentTransaction.commit ()I]
+  + Methodref [android/app/FragmentTransaction.replace (ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;]
+  + Methodref [android/preference/PreferenceActivity.<init> ()V]
+  + Methodref [android/preference/PreferenceActivity.onBackPressed ()V]
+  + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getActionBar ()Landroid/app/ActionBar;]
+  + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getFragmentManager ()Landroid/app/FragmentManager;]
+  + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getString (I)Ljava/lang/String;]
+  + Methodref [com/lazexe/BattleDoctor/PrefsActivity.setTitle (Ljava/lang/CharSequence;)V]
+  + Methodref [com/lazexe/BattleDoctor/d.<init> (Lcom/lazexe/BattleDoctor/PrefsActivity;)V]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/lazexe/BattleDoctor/PrefsActivity;)V]
+  + NameAndType [beginTransaction ()Landroid/app/FragmentTransaction;]
+  + NameAndType [commit ()I]
+  + NameAndType [getActionBar ()Landroid/app/ActionBar;]
+  + NameAndType [getFragmentManager ()Landroid/app/FragmentManager;]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [onBackPressed ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [replace (ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;]
+  + NameAndType [setDisplayHomeAsUpEnabled (Z)V]
+  + NameAndType [setHomeButtonEnabled (Z)V]
+  + NameAndType [setTitle (Ljava/lang/CharSequence;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/app/ActionBar;]
+  + Utf8 [()Landroid/app/FragmentManager;]
+  + Utf8 [()Landroid/app/FragmentTransaction;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/PrefsActivity;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [android/app/ActionBar]
+  + Utf8 [android/app/FragmentManager]
+  + Utf8 [android/app/FragmentTransaction]
+  + Utf8 [android/preference/PreferenceActivity]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [beginTransaction]
+  + Utf8 [com/lazexe/BattleDoctor/PrefsActivity]
+  + Utf8 [com/lazexe/BattleDoctor/d]
+  + Utf8 [commit]
+  + Utf8 [getActionBar]
+  + Utf8 [getFragmentManager]
+  + Utf8 [getItemId]
+  + Utf8 [getString]
+  + Utf8 [onBackPressed]
+  + Utf8 [onCreate]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [replace]
+  + Utf8 [setDisplayHomeAsUpEnabled]
+  + Utf8 [setHomeButtonEnabled]
+  + Utf8 [setTitle]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public PrefsActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #16
+        + Methodref [android/preference/PreferenceActivity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 63, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #18
+        + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] aload_0 v0
+      [7] ldc #3
+        + Integer [2131034139]
+      [9] invokevirtual #21
+        + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getString (I)Ljava/lang/String;]
+      [12] invokevirtual #22
+        + Methodref [com/lazexe/BattleDoctor/PrefsActivity.setTitle (Ljava/lang/CharSequence;)V]
+      [15] aload_0 v0
+      [16] invokevirtual #20
+        + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getFragmentManager ()Landroid/app/FragmentManager;]
+      [19] invokevirtual #13
+        + Methodref [android/app/FragmentManager.beginTransaction ()Landroid/app/FragmentTransaction;]
+      [22] ldc #1
+        + Integer [16908290]
+      [24] new #10
+        + Class [com/lazexe/BattleDoctor/d]
+      [27] dup
+      [28] aload_0 v0
+      [29] invokespecial #23
+        + Methodref [com/lazexe/BattleDoctor/d.<init> (Lcom/lazexe/BattleDoctor/PrefsActivity;)V]
+      [32] invokevirtual #15
+        + Methodref [android/app/FragmentTransaction.replace (ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;]
+      [35] invokevirtual #14
+        + Methodref [android/app/FragmentTransaction.commit ()I]
+      [38] pop
+      [39] aload_0 v0
+      [40] invokevirtual #19
+        + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getActionBar ()Landroid/app/ActionBar;]
+      [43] ifnull +19 (target=62)
+      [46] aload_0 v0
+      [47] invokevirtual #19
+        + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getActionBar ()Landroid/app/ActionBar;]
+      [50] iconst_1
+      [51] invokevirtual #12
+        + Methodref [android/app/ActionBar.setHomeButtonEnabled (Z)V]
+      [54] aload_0 v0
+      [55] invokevirtual #19
+        + Methodref [com/lazexe/BattleDoctor/PrefsActivity.getActionBar ()Landroid/app/ActionBar;]
+      [58] iconst_1
+      [59] invokevirtual #11
+        + Methodref [android/app/ActionBar.setDisplayHomeAsUpEnabled (Z)V]
+      [62] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [62] Var: ..., Stack: (empty)
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] invokeinterface #24
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] ldc #2
+        + Integer [16908332]
+      [8] ificmpne +9 (target=17)
+      [11] aload_0 v0
+      [12] invokespecial #17
+        + Methodref [android/preference/PreferenceActivity.onBackPressed ()V]
+      [15] iconst_1
+      [16] ireturn
+      [17] iconst_0
+      [18] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [17] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/d
+  Superclass:    android/preference/PreferenceFragment
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.lazexe.BattleDoctor.d extends android.preference.PreferenceFragment
+
+Interfaces (count = 1):
+  + Class [android/preference/Preference$OnPreferenceClickListener]
+
+Constant Pool (count = 173):
+  + Integer [17039370]
+  + Integer [2130837512]
+  + Integer [2130968577]
+  + Integer [2131034136]
+  + String []
+  + String [Battle doctor]
+  + String [Send email]
+  + String [Will be soon]
+  + String [android.intent.action.SENDTO]
+  + String [android.intent.extra.SUBJECT]
+  + String [display_licence]
+  + String [mail_me]
+  + String [mailto:lazexek21@gmail.com]
+  + String [rate_app]
+  + Class [android/app/AlertDialog]
+  + Class [android/app/AlertDialog$Builder]
+  + Class [android/content/Intent]
+  + Class [android/content/res/Resources]
+  + Class [android/net/Uri]
+  + Class [android/preference/Preference]
+  + Class [android/preference/Preference$OnPreferenceClickListener]
+  + Class [android/preference/PreferenceFragment]
+  + Class [android/widget/Toast]
+  + Class [com/lazexe/BattleDoctor/a]
+  + Class [com/lazexe/BattleDoctor/d]
+  + Class [com/lazexe/BattleDoctor/e]
+  + Class [java/lang/Exception]
+  + Class [java/lang/String]
+  + Fieldref [com/lazexe/BattleDoctor/d.a Lcom/lazexe/BattleDoctor/PrefsActivity;]
+  + Methodref [android/app/AlertDialog.show ()V]
+  + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+  + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
+  + Methodref [android/app/AlertDialog$Builder.setCancelable (Z)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setIcon (Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setMessage (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+  + Methodref [android/content/Intent.createChooser (Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [android/preference/Preference.getKey ()Ljava/lang/String;]
+  + Methodref [android/preference/Preference.setOnPreferenceClickListener (Landroid/preference/Preference$OnPreferenceClickListener;)V]
+  + Methodref [android/preference/PreferenceFragment.<init> ()V]
+  + Methodref [android/preference/PreferenceFragment.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.show ()V]
+  + Methodref [com/lazexe/BattleDoctor/a.a (Landroid/app/Activity;)Ljava/lang/String;]
+  + Methodref [com/lazexe/BattleDoctor/d.a ()V]
+  + Methodref [com/lazexe/BattleDoctor/d.addPreferencesFromResource (I)V]
+  + Methodref [com/lazexe/BattleDoctor/d.b ()V]
+  + Methodref [com/lazexe/BattleDoctor/d.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+  + Methodref [com/lazexe/BattleDoctor/d.getActivity ()Landroid/app/Activity;]
+  + Methodref [com/lazexe/BattleDoctor/d.getResources ()Landroid/content/res/Resources;]
+  + Methodref [com/lazexe/BattleDoctor/d.getString (I)Ljava/lang/String;]
+  + Methodref [com/lazexe/BattleDoctor/d.startActivity (Landroid/content/Intent;)V]
+  + Methodref [com/lazexe/BattleDoctor/e.<init> (Lcom/lazexe/BattleDoctor/d;)V]
+  + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Lcom/lazexe/BattleDoctor/d;)V]
+  + NameAndType [<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a (Landroid/app/Activity;)Ljava/lang/String;]
+  + NameAndType [a Lcom/lazexe/BattleDoctor/PrefsActivity;]
+  + NameAndType [addPreferencesFromResource (I)V]
+  + NameAndType [b ()V]
+  + NameAndType [create ()Landroid/app/AlertDialog;]
+  + NameAndType [createChooser (Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+  + NameAndType [getActivity ()Landroid/app/Activity;]
+  + NameAndType [getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + NameAndType [getKey ()Ljava/lang/String;]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [setCancelable (Z)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setIcon (Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setMessage (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setOnPreferenceClickListener (Landroid/preference/Preference$OnPreferenceClickListener;)V]
+  + NameAndType [setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [show ()V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 []
+  + Utf8 [()Landroid/app/Activity;]
+  + Utf8 [()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/graphics/drawable/Drawable;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/app/Activity;)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/preference/Preference$OnPreferenceClickListener;)V]
+  + Utf8 [(Landroid/preference/Preference;)Z]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/PrefsActivity;)V]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/d;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+  + Utf8 [(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;Landroid/net/Uri;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [(Z)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [<init>]
+  + Utf8 [Battle doctor]
+  + Utf8 [Code]
+  + Utf8 [Lcom/lazexe/BattleDoctor/PrefsActivity;]
+  + Utf8 [Send email]
+  + Utf8 [StackMapTable]
+  + Utf8 [Will be soon]
+  + Utf8 [a]
+  + Utf8 [addPreferencesFromResource]
+  + Utf8 [android.intent.action.SENDTO]
+  + Utf8 [android.intent.extra.SUBJECT]
+  + Utf8 [android/app/AlertDialog]
+  + Utf8 [android/app/AlertDialog$Builder]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/preference/Preference]
+  + Utf8 [android/preference/Preference$OnPreferenceClickListener]
+  + Utf8 [android/preference/PreferenceFragment]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [b]
+  + Utf8 [com/lazexe/BattleDoctor/a]
+  + Utf8 [com/lazexe/BattleDoctor/d]
+  + Utf8 [com/lazexe/BattleDoctor/e]
+  + Utf8 [create]
+  + Utf8 [createChooser]
+  + Utf8 [display_licence]
+  + Utf8 [equals]
+  + Utf8 [findPreference]
+  + Utf8 [getActivity]
+  + Utf8 [getDrawable]
+  + Utf8 [getKey]
+  + Utf8 [getResources]
+  + Utf8 [getString]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/String]
+  + Utf8 [mail_me]
+  + Utf8 [mailto:lazexek21@gmail.com]
+  + Utf8 [makeText]
+  + Utf8 [onCreate]
+  + Utf8 [onPreferenceClick]
+  + Utf8 [parse]
+  + Utf8 [printStackTrace]
+  + Utf8 [putExtra]
+  + Utf8 [rate_app]
+  + Utf8 [setCancelable]
+  + Utf8 [setIcon]
+  + Utf8 [setMessage]
+  + Utf8 [setOnPreferenceClickListener]
+  + Utf8 [setPositiveButton]
+  + Utf8 [setTitle]
+  + Utf8 [show]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/lazexe/BattleDoctor/PrefsActivity;
+    Access flags: 0x1010
+      = final synthetic com.lazexe.BattleDoctor.PrefsActivity a
+
+Methods (count = 5):
+  - Method:       <init>(Lcom/lazexe/BattleDoctor/PrefsActivity;)V
+    Access flags: 0x0
+      = d(com.lazexe.BattleDoctor.PrefsActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #29
+        + Fieldref [com/lazexe/BattleDoctor/d.a Lcom/lazexe/BattleDoctor/PrefsActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #45
+        + Methodref [android/preference/PreferenceFragment.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 50, locals = 5, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #46
+        + Methodref [android/preference/PreferenceFragment.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #3
+        + Integer [2130968577]
+      [8] invokevirtual #51
+        + Methodref [com/lazexe/BattleDoctor/d.addPreferencesFromResource (I)V]
+      [11] aload_0 v0
+      [12] ldc #12
+        + String [mail_me]
+      [14] invokevirtual #53
+        + Methodref [com/lazexe/BattleDoctor/d.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+      [17] astore_2 v2
+      [18] aload_2 v2
+      [19] aload_0 v0
+      [20] invokevirtual #44
+        + Methodref [android/preference/Preference.setOnPreferenceClickListener (Landroid/preference/Preference$OnPreferenceClickListener;)V]
+      [23] aload_0 v0
+      [24] ldc #11
+        + String [display_licence]
+      [26] invokevirtual #53
+        + Methodref [com/lazexe/BattleDoctor/d.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+      [29] astore_3 v3
+      [30] aload_3 v3
+      [31] aload_0 v0
+      [32] invokevirtual #44
+        + Methodref [android/preference/Preference.setOnPreferenceClickListener (Landroid/preference/Preference$OnPreferenceClickListener;)V]
+      [35] aload_0 v0
+      [36] ldc #14
+        + String [rate_app]
+      [38] invokevirtual #53
+        + Methodref [com/lazexe/BattleDoctor/d.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+      [41] astore v4
+      [43] aload v4
+      [45] aload_0 v0
+      [46] invokevirtual #44
+        + Methodref [android/preference/Preference.setOnPreferenceClickListener (Landroid/preference/Preference$OnPreferenceClickListener;)V]
+      [49] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPreferenceClick(Landroid/preference/Preference;)Z
+    Access flags: 0x1
+      = public boolean onPreferenceClick(android.preference.Preference)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 65, locals = 2, stack = 3):
+      [0] aload_1 v1
+      [1] invokevirtual #43
+        + Methodref [android/preference/Preference.getKey ()Ljava/lang/String;]
+      [4] ldc #12
+        + String [mail_me]
+      [6] invokevirtual #60
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [9] ifeq +9 (target=18)
+      [12] aload_0 v0
+      [13] invokespecial #50
+        + Methodref [com/lazexe/BattleDoctor/d.a ()V]
+      [16] iconst_1
+      [17] ireturn
+      [18] aload_1 v1
+      [19] invokevirtual #43
+        + Methodref [android/preference/Preference.getKey ()Ljava/lang/String;]
+      [22] ldc #11
+        + String [display_licence]
+      [24] invokevirtual #60
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [27] ifeq +9 (target=36)
+      [30] aload_0 v0
+      [31] invokespecial #52
+        + Methodref [com/lazexe/BattleDoctor/d.b ()V]
+      [34] iconst_1
+      [35] ireturn
+      [36] aload_1 v1
+      [37] invokevirtual #43
+        + Methodref [android/preference/Preference.getKey ()Ljava/lang/String;]
+      [40] ldc #14
+        + String [rate_app]
+      [42] invokevirtual #60
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [45] ifeq +18 (target=63)
+      [48] aload_0 v0
+      [49] invokevirtual #54
+        + Methodref [com/lazexe/BattleDoctor/d.getActivity ()Landroid/app/Activity;]
+      [52] ldc #8
+        + String [Will be soon]
+      [54] iconst_1
+      [55] invokestatic #47
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [58] invokevirtual #48
+        + Methodref [android/widget/Toast.show ()V]
+      [61] iconst_1
+      [62] ireturn
+      [63] iconst_0
+      [64] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [18] Var: ..., Stack: (empty)
+        - [36] Var: ..., Stack: (empty)
+        - [63] Var: ..., Stack: (empty)
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 35, locals = 2, stack = 4):
+      [0] new #17
+        + Class [android/content/Intent]
+      [3] dup
+      [4] ldc #9
+        + String [android.intent.action.SENDTO]
+      [6] ldc #13
+        + String [mailto:lazexek21@gmail.com]
+      [8] invokestatic #42
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [11] invokespecial #38
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+      [14] astore_1 v1
+      [15] aload_1 v1
+      [16] ldc #10
+        + String [android.intent.extra.SUBJECT]
+      [18] ldc #6
+        + String [Battle doctor]
+      [20] invokevirtual #40
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [23] pop
+      [24] aload_0 v0
+      [25] aload_1 v1
+      [26] ldc #7
+        + String [Send email]
+      [28] invokestatic #39
+        + Methodref [android/content/Intent.createChooser (Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;]
+      [31] invokevirtual #57
+        + Methodref [com/lazexe/BattleDoctor/d.startActivity (Landroid/content/Intent;)V]
+      [34] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x2
+      = private void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 97, locals = 4, stack = 5):
+      [0] ldc #5
+        + String []
+      [2] astore_1 v1
+      [3] aload_0 v0
+      [4] invokevirtual #54
+        + Methodref [com/lazexe/BattleDoctor/d.getActivity ()Landroid/app/Activity;]
+      [7] invokestatic #49
+        + Methodref [com/lazexe/BattleDoctor/a.a (Landroid/app/Activity;)Ljava/lang/String;]
+      [10] astore_1 v1
+      [11] goto +8 (target=19)
+      [14] astore_2 v2
+      [15] aload_2 v2
+      [16] invokevirtual #59
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [19] new #16
+        + Class [android/app/AlertDialog$Builder]
+      [22] dup
+      [23] aload_0 v0
+      [24] invokevirtual #54
+        + Methodref [com/lazexe/BattleDoctor/d.getActivity ()Landroid/app/Activity;]
+      [27] invokespecial #31
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [30] astore_2 v2
+      [31] aload_2 v2
+      [32] aload_0 v0
+      [33] ldc #4
+        + Integer [2131034136]
+      [35] invokevirtual #56
+        + Methodref [com/lazexe/BattleDoctor/d.getString (I)Ljava/lang/String;]
+      [38] invokevirtual #37
+        + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+      [41] pop
+      [42] aload_2 v2
+      [43] aload_1 v1
+      [44] invokevirtual #35
+        + Methodref [android/app/AlertDialog$Builder.setMessage (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+      [47] pop
+      [48] aload_2 v2
+      [49] aload_0 v0
+      [50] invokevirtual #55
+        + Methodref [com/lazexe/BattleDoctor/d.getResources ()Landroid/content/res/Resources;]
+      [53] ldc #2
+        + Integer [2130837512]
+      [55] invokevirtual #41
+        + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+      [58] invokevirtual #34
+        + Methodref [android/app/AlertDialog$Builder.setIcon (Landroid/graphics/drawable/Drawable;)Landroid/app/AlertDialog$Builder;]
+      [61] pop
+      [62] aload_2 v2
+      [63] iconst_0
+      [64] invokevirtual #33
+        + Methodref [android/app/AlertDialog$Builder.setCancelable (Z)Landroid/app/AlertDialog$Builder;]
+      [67] pop
+      [68] aload_2 v2
+      [69] aload_0 v0
+      [70] ldc #1
+        + Integer [17039370]
+      [72] invokevirtual #56
+        + Methodref [com/lazexe/BattleDoctor/d.getString (I)Ljava/lang/String;]
+      [75] new #26
+        + Class [com/lazexe/BattleDoctor/e]
+      [78] dup
+      [79] aload_0 v0
+      [80] invokespecial #58
+        + Methodref [com/lazexe/BattleDoctor/e.<init> (Lcom/lazexe/BattleDoctor/d;)V]
+      [83] invokevirtual #36
+        + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [86] pop
+      [87] aload_2 v2
+      [88] invokevirtual #32
+        + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
+      [91] astore_3 v3
+      [92] aload_3 v3
+      [93] invokevirtual #30
+        + Methodref [android/app/AlertDialog.show ()V]
+      [96] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (3 -> 11: 14):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [14] Var: [a:com/lazexe/BattleDoctor/d][a:java/lang/String], Stack: [a:java/lang/Exception]
+        - [19] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lazexe/BattleDoctor/e
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.lazexe.BattleDoctor.e extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/content/DialogInterface]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/lazexe/BattleDoctor/e]
+  + Class [java/lang/Object]
+  + Fieldref [com/lazexe/BattleDoctor/e.a Lcom/lazexe/BattleDoctor/d;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/lazexe/BattleDoctor/d;]
+  + NameAndType [cancel ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/lazexe/BattleDoctor/d;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/lazexe/BattleDoctor/d;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [cancel]
+  + Utf8 [com/lazexe/BattleDoctor/e]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/lazexe/BattleDoctor/d;
+    Access flags: 0x1010
+      = final synthetic com.lazexe.BattleDoctor.d a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/lazexe/BattleDoctor/d;)V
+    Access flags: 0x0
+      = e(com.lazexe.BattleDoctor.d)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/lazexe/BattleDoctor/e.a Lcom/lazexe/BattleDoctor/d;]
+      [5] aload_0 v0
+      [6] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x1
+      = public void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 1):
+      [0] aload_1 v1
+      [1] invokeinterface #7
+        + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

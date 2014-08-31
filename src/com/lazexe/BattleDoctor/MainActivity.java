@@ -11,31 +11,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    private static final String TAG = MainActivity.class.getName();
     public static final String WOUND_KEY = "title";
-    // top
-    private ImageButton head;
-    private ImageButton leftShoulder;
-    private ImageButton rightShoulder;
-    private ImageButton chest;
-    // body
-    private ImageButton heart;
-    private ImageButton rightLung;
-    private ImageButton leftForearm;
-    private ImageButton rightForearm;
-    private ImageButton leftArm;
-    private ImageButton rightArm;
-    private ImageButton leftStomach;
-    private ImageButton rightStomach;
-    // legs
-    private ImageButton leftLeg;
-    private ImageButton rightLeg;
-    private ImageButton leftKnee;
-    private ImageButton rightKnee;
-    private ImageButton leftShin;
-    private ImageButton rightShin;
-    private ImageButton leftFoot;
-    private ImageButton rightFoot;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,26 +22,26 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void initControls() {
-        head = (ImageButton) findViewById(R.id.head);
-        leftShoulder = (ImageButton) findViewById(R.id.left_shoulder);
-        rightShoulder = (ImageButton) findViewById(R.id.right_shoulder);
-        chest = (ImageButton) findViewById(R.id.chest);
-        heart = (ImageButton) findViewById(R.id.heart);
-        rightLung = (ImageButton) findViewById(R.id.right_lung);
-        leftForearm = (ImageButton) findViewById(R.id.left_forearm);
-        rightForearm = (ImageButton) findViewById(R.id.right_forearm);
-        leftArm = (ImageButton) findViewById(R.id.left_arm);
-        rightArm = (ImageButton) findViewById(R.id.right_arm);
-        leftStomach = (ImageButton) findViewById(R.id.left_stomach);
-        rightStomach = (ImageButton) findViewById(R.id.right_stomach);
-        leftLeg = (ImageButton) findViewById(R.id.left_leg);
-        rightLeg = (ImageButton) findViewById(R.id.right_leg);
-        leftKnee = (ImageButton) findViewById(R.id.left_knee);
-        rightKnee = (ImageButton) findViewById(R.id.right_knee);
-        leftShin = (ImageButton) findViewById(R.id.left_shin);
-        rightShin = (ImageButton) findViewById(R.id.right_shin);
-        leftFoot = (ImageButton) findViewById(R.id.left_foot);
-        rightFoot = (ImageButton) findViewById(R.id.right_foot);
+        ImageButton head = (ImageButton) findViewById(R.id.head);
+        ImageButton leftShoulder = (ImageButton) findViewById(R.id.left_shoulder);
+        ImageButton rightShoulder = (ImageButton) findViewById(R.id.right_shoulder);
+        ImageButton chest = (ImageButton) findViewById(R.id.chest);
+        ImageButton heart = (ImageButton) findViewById(R.id.heart);
+        ImageButton rightLung = (ImageButton) findViewById(R.id.right_lung);
+        ImageButton leftForearm = (ImageButton) findViewById(R.id.left_forearm);
+        ImageButton rightForearm = (ImageButton) findViewById(R.id.right_forearm);
+        ImageButton leftArm = (ImageButton) findViewById(R.id.left_arm);
+        ImageButton rightArm = (ImageButton) findViewById(R.id.right_arm);
+        ImageButton leftStomach = (ImageButton) findViewById(R.id.left_stomach);
+        ImageButton rightStomach = (ImageButton) findViewById(R.id.right_stomach);
+        ImageButton leftLeg = (ImageButton) findViewById(R.id.left_leg);
+        ImageButton rightLeg = (ImageButton) findViewById(R.id.right_leg);
+        ImageButton leftKnee = (ImageButton) findViewById(R.id.left_knee);
+        ImageButton rightKnee = (ImageButton) findViewById(R.id.right_knee);
+        ImageButton leftShin = (ImageButton) findViewById(R.id.left_shin);
+        ImageButton rightShin = (ImageButton) findViewById(R.id.right_shin);
+        ImageButton leftFoot = (ImageButton) findViewById(R.id.left_foot);
+        ImageButton rightFoot = (ImageButton) findViewById(R.id.right_foot);
         head.setOnClickListener(this);
         leftShoulder.setOnClickListener(this);
         rightShoulder.setOnClickListener(this);
@@ -93,9 +69,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     @Override
-    public void onClick(View view) {
-        if (view instanceof ImageButton) {
-            ImageButton imageButton = (ImageButton) view;
+    public void onClick(View clickedView) {
+        if (clickedView instanceof ImageButton) {
+            ImageButton imageButton = (ImageButton) clickedView;
             String contentDescription = String.valueOf(imageButton.getContentDescription());
             Intent doctorActivityIntent = new Intent(this, DoctorActivity.class);
             doctorActivityIntent.putExtra(WOUND_KEY, contentDescription);

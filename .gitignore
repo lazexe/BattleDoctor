@@ -1,8 +1,4 @@
 .idea/
-bin/
 gen/
 out/
-ant.properties
 BattleDoctor.iml
-build.xml
-local.properties

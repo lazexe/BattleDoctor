@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BattleDoctor</string>
-
+    <string name="app_name">Battle Doctor</string>
     <string name="head">Head</string>
     <string name="chest">Chest</string>
     <string name="left_shoulder">Left shoulder</string>
@@ -25,12 +24,13 @@
 
     <string name="agree">Agree</string>
     <string name="disagree">Disagree</string>
+    <string name="visit_settings">Visit settings</string>
 
     <string name="licence_agreement">Licence agreement</string>
     <string name="licence_agreement_text">Licence agreement text</string>
     <string name="do_not_show_again">Do not show again</string>
-
     <string name="preferences">Preferences</string>
+
     <string name="app_preference">Application preference</string>
     <string name="show_licence_agreement">Show licence agreement</string>
     <string name="show_licence_agreement_summary">Check to show licence agreement on app starts</string>
@@ -38,7 +38,7 @@
     <string name="display_licence_agreement_summary">Click to display licence agreement</string>
     <string name="support">Support</string>
     <string name="app_version">Application version</string>
-    <string name="app_version_summary">1.0.0</string>
+    <string name="app_version_summary">1.0.1</string>
     <string name="mail_me">Mail me</string>
     <string name="mail_me_summary">Write you wish to developer</string>
     <string name="rate_me">Rate me</string>

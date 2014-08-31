@@ -1,50 +1,50 @@
 <wounds>
 	<wound name="head">
-		<task>Нельзя использовать пальцевое прижатие при артериальном кровотечении, особенно в области височных костей</task>
-		<task>Приложить к ране скатку бинта или бандану, сложенную в несколько раз</task>
-		<task>Нельзя отстранять от раны тампон. В случае сильного пропитывания его кровью, поверх приложить другой, который, при необходимости, можно заменять новым</task>
-		<task>Зафиксировать тампон на голове бинтовой повязкой, шапочкой или банданой</task>
+		<task>You can not use finger pressing with arterial bleeding, especially in the area of ​​the temporal bones</task>
+		<task>Applied to the wound or bandage bedroll bandanna folded several times</task>
+		<task>It is impossible to remove from a wound swab. In case of heavy impregnating it with blood over attach other which, if necessary, can be replaced by the new</task>
+		<task>Fix the swab on the head bandage, a cap or bandana</task>
 	</wound>
 
 	<wound name="neck">
-		<task>Прижать пальцем рану на шее через воротник одежды или непосредственно рану</task>
-		<task>Подложить под палец бинт, освобожденный от упаковки</task>
-		<task>Положить руку раненого на свое плечо</task>
-		<task>Наложить жгут через подмышечную впадину</task>
-		<task>Не нужно отмечать время наложения жгута</task>
-		<task>Повернуть раненого на живот и оставить дожидаться окончания боя или транспортировать его в укрытие в положении «лежа на животе»</task>
+		<task>With a finger injury in the neck collar through clothing or directly to the wound</task>
+		<task>Beneath the finger bandage, freed from packaging</task>
+		<task>Put a hand on his shoulder injured</task>
+		<task>Tourniquet through the axilla</task>
+		<task>Do not need to mark the time of a tourniquet</task>
+		<task>Turn wounded on his stomach and leave wait until the end of combat or transport it to a shelter in the "prone"</task>
 	</wound>
 
 	<wound name="chest">
-		<task>Прижать ладонью рану (можно через гимнастерку)</task>
-		<task>Посадить раненого с упором на свое колено</task>
-		<task>Раскрыть ИПП и приложить к входному отверстию раны герметизирующую оболочку и марлевую подушечку</task>
-		<task>Усадить раненого с упором на свое колено</task>
-		<task>Прижать коленом подушечку ИПП к спине раненого и прибинтовать обе подушечки к груди</task>
-		<task>Обязательно ввести в плечо обезболивающее средство и приколоть пустой шприц!тюбик к воротнику или рукаву одежды. ПРИ УДАЛЕНИИ ШПРИЦ-ТЮБИК НЕ РАЗЖИМАТЬ</task>
-		<task>Переносить раненого на носилках можно только в положении полусидя</task>
-		<task>Даже если боец с ранением грудной клетки потерял сознание, его следует переносить в положении на спине с приподнятым головным концом носилок</task>
+		<task>Push hand wound (possible through the shirt)</task>
+		<task>To put the wounded man, with emphasis on his knee</task>
+		<task>Disclose individual anti-gas package and attach to the inlet of the wound sealing sheath and a gauze pad</task>
+		<task>Seat wounded with an emphasis on his knee</task>
+		<task>Push the knee pad individual anti-gas package-to-back bandage the wounded and the two pads to the chest</task>
+		<task>Be sure to enter the shoulder pain reliever and pin empty syringe! Tube to the collar or sleeve clothing. UPON REMOVAL ampin NOT unclench</task>
+		<task>Carry the wounded on stretchers can be only half-sitting position</task>
+		<task>Even if a soldier with a wound to the chest collapsed, it should be transferred to the supine position with raised head end of the stretcher</task>
 	</wound>
 
 	<wound name="hand">
-		<task>Положить руку раненого на свое плечо</task>
-		<task>Наложить на плечо кровоостанавливающий жгут без контроля пульса на лучевой артерии</task>
-		<task>Обязательно ввести обезболивающее средство выше места наложения жгута</task>
-		<task>Приколоть шприц!тюбик к рукаву, возле наложенного жгута. ПРИ УДАЛЕНИИ ШПРИЦ-ТЮБИК НЕ РАЗЖИМАТЬ</task>
-		<task>После обезболивания раненого необходимо повернуть на живот и оставить в таком положении до окончания боя или транспортировать его в укрытие в положении «лежа на животе»</task>
+		<task>Put a hand on his shoulder injured</task>
+		<task>Impose on the shoulder without tourniquet control of the radial pulse</task>
+		<task>Be sure to enter an anesthetic above the tourniquet</task>
+		<task>Pin syringe! Tube to the sleeve, near the tourniquet. UPON REMOVAL ampin NOT unclench</task>
+		<task>After anesthesia the wounded must be turned on his stomach and left in this position until the end of the battle, or to transport it to the shelter in the "prone"</task>
 	</wound>
 
 	<wound name="leg">
-		<task>Завести раненую ногу на свое плечо</task>
-		<task>Прижать скатку бинта без упаковки к месту пережатия бедренной артерии</task>
-		<task>Наложить жгут с максимальным усилием</task>
-		<task>Обязательно ввести обезболивающее средство выше места наложения жгута. ПРИ УДАЛЕНИИ ШПРИЦ-ТЮБИК НЕ РАЗЖИМАТЬ</task>
-		<task>Приколоть использованный шприц!тюбик возле наложенного жгута</task>
+		<task>Free wounded leg on his shoulder</task>
+		<task>Press bedroll bandage without packaging to the place of compression of the femoral artery</task>
+		<task>Tourniquet with maximum effort</task>
+		<task>Be sure to enter an anesthetic above the tourniquet. UPON REMOVAL ampin NOT unclench</task>
+		<task>Pin used syringe! Tube near the tourniquet</task>
 	</wound>
 
 	<wound name="stomach">
-		<task>Оставить лежать на спине</task>
-		<task>Обезболить</task>
-		<task>Транспортировать в укрытие только в положении "лежа на спине"</task>
+		<task>Be lie on your back</task>
+		<task>Anesthetize</task>
+		<task>Transported to the shelter only in the "supine"</task>
 	</wound>
 </wounds>

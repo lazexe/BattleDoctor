@@ -23,7 +23,7 @@
                       android:weightSum="1">
 
             <ImageButton android:layout_width="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:layout_gravity="center_horizontal|"
                          android:background="@android:color/transparent"
                          android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             <ImageButton android:id="@+id/right_shoulder"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/right_shoulder"/>
 
@@ -54,7 +54,7 @@
             <ImageButton android:id="@+id/chest"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/chest"/>
 
@@ -66,7 +66,7 @@
             <ImageButton android:id="@+id/left_shoulder"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_shoulder"/>
         </LinearLayout>
@@ -80,7 +80,7 @@
             <ImageButton android:id="@+id/right_forearm"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/right_forearm"/>
 
@@ -92,7 +92,7 @@
             <ImageButton android:id="@+id/right_lung"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/righ_lung"/>
 
@@ -104,7 +104,7 @@
             <ImageButton android:id="@+id/heart"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/heart"/>
 
@@ -116,7 +116,7 @@
             <ImageButton android:id="@+id/left_forearm"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_forearm"/>
         </LinearLayout>
@@ -130,7 +130,7 @@
             <ImageButton android:id="@+id/right_arm"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/right_arm"/>
 
@@ -142,7 +142,7 @@
             <ImageButton android:id="@+id/right_stomach"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/right_stomach"/>
 
@@ -154,7 +154,7 @@
             <ImageButton android:id="@+id/left_stomach"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_stomach"/>
 
@@ -166,7 +166,7 @@
             <ImageButton android:id="@+id/left_arm"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_arm"/>
         </LinearLayout>
@@ -180,7 +180,7 @@
             <ImageButton android:id="@+id/right_leg"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/right_leg"/>
 
@@ -192,7 +192,7 @@
             <ImageButton android:id="@+id/left_leg"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_leg"/>
         </LinearLayout>
@@ -206,7 +206,7 @@
             <ImageButton android:id="@+id/right_knee"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/right_knee"/>
 
@@ -218,7 +218,7 @@
             <ImageButton android:id="@+id/left_knee"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_knee"/>
         </LinearLayout>
@@ -232,7 +232,7 @@
             <ImageButton android:id="@+id/right_shin"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                         android:contentDescription="@string/right_shin"/>
 
@@ -244,7 +244,7 @@
             <ImageButton android:id="@+id/left_shin"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_shin"/>
         </LinearLayout>
@@ -258,7 +258,7 @@
             <ImageButton android:id="@+id/right_foot"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/right_foot"/>
 
@@ -270,7 +270,7 @@
             <ImageButton android:id="@+id/left_foot"
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
-                         android:src="@drawable/ic_aim"
+                         android:src="@drawable/aim_button_background"
                          android:background="@android:color/transparent"
                          android:contentDescription="@string/left_foot"/>
         </LinearLayout>

@@ -3,6 +3,7 @@ package com.lazexe.BattleDoctor;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import org.xmlpull.v1.XmlPullParser;
@@ -29,6 +30,15 @@ public class DoctorActivity extends Activity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            super.onBackPressed();
+            return true;
+        }
+        return false;
     }
 
     private String getDiagnostics() {
@@ -61,6 +71,10 @@ public class DoctorActivity extends Activity {
     private void initControls() {
         descriptionImageView = (ImageView) findViewById(R.id.description_imageview);
         firstHelpTextView = (TextView) findViewById(R.id.first_help_textview);
+        if (getActionBar() != null) {
+            getActionBar().setHomeButtonEnabled(true);
+            getActionBar().setDisplayHomeAsUpEnabled(true);
+        }
     }
 
     private void showHelp(String diagnostics) throws XmlPullParserException, IOException {

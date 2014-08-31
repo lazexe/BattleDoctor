@@ -1,0 +1,17 @@
+com.lazexe.BattleDoctor.BuildConfig
+com.lazexe.BattleDoctor.MainActivity:
+    public static final java.lang.String WOUND_KEY
+com.lazexe.BattleDoctor.PrefsActivity:
+    public static final java.lang.String LICENCE_KEY
+com.lazexe.BattleDoctor.PrefsActivity$PrefFragment:
+    private static final java.lang.String MAIL_ME_PREF_KEY
+    private static final java.lang.String DISPLAY_LICENCE_PREF_KEY
+    private static final java.lang.String RATE_APP_PREFERENCE
+com.lazexe.BattleDoctor.R
+com.lazexe.BattleDoctor.R$attr
+com.lazexe.BattleDoctor.R$drawable
+com.lazexe.BattleDoctor.R$id
+com.lazexe.BattleDoctor.R$layout
+com.lazexe.BattleDoctor.R$menu
+com.lazexe.BattleDoctor.R$string
+com.lazexe.BattleDoctor.R$xml

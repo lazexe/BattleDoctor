@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BattleDoctor</string>
-    
+    <string name="app_name">Боевой доктор</string>
     <string name="head">Голова</string>
     <string name="chest">Грудь</string>
     <string name="left_shoulder">Левое плече</string>
@@ -22,4 +21,28 @@
     <string name="right_shin">Правая голень</string>
     <string name="left_foot">Левая ступня</string>
     <string name="right_foot">Правая ступня</string>
+
+    <string name="agree">Согласен</string>
+    <string name="disagree">Не согласен</string>
+    <string name="visit_settings">Посетите настройки приложения</string>
+
+    <string name="licence_agreement">Соглашение</string>
+    <string name="licence_agreement_text">Текст соглашения</string>
+    <string name="do_not_show_again">Больше не показывать</string>
+    <string name="preferences">Настройки</string>
+
+    <string name="app_preference">Настройки приложения</string>
+    <string name="show_licence_agreement">Показывать соглашение</string>
+    <string name="show_licence_agreement_summary">Нажмите для отображения соглашения при запуске приложения</string>
+    <string name="display_licence_agreement">Посмотреть соглашение</string>
+    <string name="display_licence_agreement_summary">Нажмите для отображения соглашения</string>
+    <string name="support">Поддержка</string>
+    <string name="app_version">Версия приложения</string>
+    <string name="mail_me">Напишите мне</string>
+    <string name="mail_me_summary">Напишите Ваши пожелания разработчику</string>
+    <string name="rate_me">Оцените меня</string>
+    <string name="rate_me_summary">Оцените приложение на Google Play</string>
+    <string name="about">О разработчике</string>
+    <string name="developer">Разработчик</string>
+    <string name="maxim_lazarenko">Максим Лазаренко, Украина</string>
 </resources>
