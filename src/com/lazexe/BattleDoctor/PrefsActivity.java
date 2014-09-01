@@ -1,6 +1,7 @@
 package com.lazexe.BattleDoctor;
 
 import android.app.AlertDialog;
+import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -64,8 +65,14 @@ public class PrefsActivity extends PreferenceActivity {
                 return true;
             }
             if (preference.getKey().equals(RATE_APP_PREFERENCE)) {
-                // TODO
-                Toast.makeText(getActivity(), "Will be soon", Toast.LENGTH_LONG).show();
+                Uri uri = Uri.parse("market://details?id=" + getActivity().getPackageName());
+                Intent playMarketIntent = new Intent(Intent.ACTION_VIEW, uri);
+                try {
+                    startActivity(playMarketIntent);
+                } catch (ActivityNotFoundException exception) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id="
+                            + getActivity().getPackageName())));
+                }
                 return true;
             }
             return false;
