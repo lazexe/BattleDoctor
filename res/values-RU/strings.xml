@@ -45,4 +45,8 @@
     <string name="about">О разработчике</string>
     <string name="developer">Разработчик</string>
     <string name="maxim_lazarenko">Максим Лазаренко, Украина</string>
+
+    <string name="exit">Выход</string>
+    <string name="rate_app_please">Оцените приложение на Google Play</string>
+    <string name="rate">Оценить</string>
 </resources>

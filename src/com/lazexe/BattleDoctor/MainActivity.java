@@ -1,7 +1,11 @@
 package com.lazexe.BattleDoctor;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.ActivityNotFoundException;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -94,5 +98,44 @@ public class MainActivity extends Activity implements View.OnClickListener {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(getString(R.string.exit));
+        builder.setMessage(getString(R.string.rate_app_please));
+        builder.setPositiveButton(getString(R.string.exit), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+                finish();
+            }
+        });
+        builder.setNeutralButton(getString(R.string.rate), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                openAppOnPlayMarket();
+            }
+        });
+        builder.setNegativeButton(getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+        builder.create().show();
+    }
+
+    private void openAppOnPlayMarket() {
+        Uri uri = Uri.parse("market://details?id=" + getPackageName());
+        Intent playMarketIntent = new Intent(Intent.ACTION_VIEW, uri);
+        try {
+            startActivity(playMarketIntent);
+        } catch (ActivityNotFoundException exception) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id="
+                    + getPackageName())));
+        }
     }
 }

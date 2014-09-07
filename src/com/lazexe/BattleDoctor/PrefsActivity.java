@@ -10,7 +10,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class PrefsActivity extends PreferenceActivity {
 
@@ -65,17 +64,21 @@ public class PrefsActivity extends PreferenceActivity {
                 return true;
             }
             if (preference.getKey().equals(RATE_APP_PREFERENCE)) {
-                Uri uri = Uri.parse("market://details?id=" + getActivity().getPackageName());
-                Intent playMarketIntent = new Intent(Intent.ACTION_VIEW, uri);
-                try {
-                    startActivity(playMarketIntent);
-                } catch (ActivityNotFoundException exception) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id="
-                            + getActivity().getPackageName())));
-                }
+                openAppOnPlayMarket();
                 return true;
             }
             return false;
+        }
+
+        private void openAppOnPlayMarket() {
+            Uri uri = Uri.parse("market://details?id=" + getActivity().getPackageName());
+            Intent playMarketIntent = new Intent(Intent.ACTION_VIEW, uri);
+            try {
+                startActivity(playMarketIntent);
+            } catch (ActivityNotFoundException exception) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id="
+                        + getActivity().getPackageName())));
+            }
         }
 
         private void startMailApplication() {

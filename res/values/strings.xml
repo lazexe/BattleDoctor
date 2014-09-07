@@ -26,19 +26,19 @@
     <string name="disagree">Disagree</string>
     <string name="visit_settings">Visit settings</string>
 
-    <string name="licence_agreement">Licence agreement</string>
-    <string name="licence_agreement_text">Licence agreement text</string>
+    <string name="licence_agreement">License agreement</string>
+    <string name="licence_agreement_text">License agreement text</string>
     <string name="do_not_show_again">Do not show again</string>
     <string name="preferences">Preferences</string>
 
     <string name="app_preference">Application preference</string>
-    <string name="show_licence_agreement">Show licence agreement</string>
-    <string name="show_licence_agreement_summary">Check to show licence agreement on app starts</string>
-    <string name="display_licence_agreement">Display licence agreement</string>
-    <string name="display_licence_agreement_summary">Click to display licence agreement</string>
+    <string name="show_licence_agreement">Show license agreement</string>
+    <string name="show_licence_agreement_summary">Check to show license agreement on app starts</string>
+    <string name="display_licence_agreement">Display license agreement</string>
+    <string name="display_licence_agreement_summary">Click to display license agreement</string>
     <string name="support">Support</string>
     <string name="app_version">Application version</string>
-    <string name="app_version_summary">1.0.1</string>
+    <string name="app_version_summary">1.0.3</string>
     <string name="mail_me">Mail me</string>
     <string name="mail_me_summary">Write you wish to developer</string>
     <string name="rate_me">Rate me</string>
@@ -46,4 +46,8 @@
     <string name="about">About</string>
     <string name="developer">Developer</string>
     <string name="maxim_lazarenko">Maxim Lazarenko, Ukraine</string>
+
+    <string name="exit">Exit</string>
+    <string name="rate_app_please">Rate the application on Google Play Market</string>
+    <string name="rate">Rate</string>
 </resources>
