@@ -1,6 +1,7 @@
 package com.lazexe.BattleDoctor;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -26,9 +27,10 @@ public class DoctorActivity extends Activity {
         setTitle(getWound());
         initControls();
         try {
-            showHelp(getDiagnostics());
-        } catch (Exception e) {
-            e.printStackTrace();
+            String diagnostics = getDiagnostics();
+            showHelp(diagnostics);
+        } catch (Exception exception) {
+            exception.printStackTrace();
         }
     }
 
@@ -71,6 +73,8 @@ public class DoctorActivity extends Activity {
     private void initControls() {
         descriptionImageView = (ImageView) findViewById(R.id.description_imageview);
         firstHelpTextView = (TextView) findViewById(R.id.first_help_textview);
+        Typeface robotoRegularTypeface = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
+        firstHelpTextView.setTypeface(robotoRegularTypeface);
         if (getActionBar() != null) {
             getActionBar().setHomeButtonEnabled(true);
             getActionBar().setDisplayHomeAsUpEnabled(true);
